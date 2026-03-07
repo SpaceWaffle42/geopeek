@@ -1,11 +1,14 @@
-from app.module import Mapper
+from app.modules import Mapper
+from app.modules import _Popups
+from app.modules.youtube import YouTubeModule
+from app.modules.x import XModule
+from app.modules.Read_Database import DatabaseModule
 from flask import Flask, redirect, render_template
 # renderer = Mapper.MapRender()
 # renderer.add_tile_layer("Esri WorldImagery")
 # renderer.add_marker((51.5074, -0.1278), "London")
 # renderer.add_marker((12.3456,7.8901),"HEHEHOHOHAHA")
 # renderer.render()
-
 
 
 from flask import (
@@ -32,12 +35,14 @@ db_path = os.environ.get('DB_PATH', os.path.join(py_path, "database.db"))
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    return render_template("index.html")
-
+    youtube_module = YouTubeModule()
+    x_module = XModule()
+    database_module = DatabaseModule()
+    return render_template("index.html",youtube_module=youtube_module,x_module=x_module,database_module=database_module) 
+    
 @app.route("/index", methods=["GET", "POST"])
 def home():
-
-    return render_template("index.html")
+    return redirect(url_for("index"))
 
 @app.route('/favicon.ico')
 def favicon():
@@ -45,6 +50,13 @@ def favicon():
 
 @app.route("/map")
 def map():
+    popup = _Popups.Create_Popup()
+    
+    mapper = Mapper.MapRender()
+    mapper.add_marker((0,100),tooltip="Angus",popup_context=popup.CreateImg(img_src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrSKCU00zc6mm0j-T2Sgm6txurUiT1TMw85N1Rq2DUwc0x4Ln3jMurYwLiOmef1ECGvMw7GhAStqfp55hqI0663wsMHLD6lqR5bFj-w&s=10",desc="defualt description",lat="0",lng="100",url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrSKCU00zc6mm0j-T2Sgm6txurUiT1TMw85N1Rq2DUwc0x4Ln3jMurYwLiOmef1ECGvMw7GhAStqfp55hqI0663wsMHLD6lqR5bFj-w&s=10",platform="YouTube"))
+
+    mapper.add_tile_layer(layer_name="Esri WorldImagery")
+    mapper.render()
     return render_template("_map.html")
 
 if __name__ == "__main__":

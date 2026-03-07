@@ -1,0 +1,2002 @@
+{
+  "AF": {
+    "name": "Afghanistan",
+    "capital": [
+      34.51666667,
+      69.183333
+    ],
+    "lang": "ps"
+  },
+  "AX": {
+    "name": "Åland Islands",
+    "capital": [
+      60.116667,
+      19.9
+    ],
+    "lang": "sv"
+  },
+  "AL": {
+    "name": "Albania",
+    "capital": [
+      41.31666667,
+      19.816667
+    ],
+    "lang": "sq"
+  },
+  "DZ": {
+    "name": "Algeria",
+    "capital": [
+      36.75,
+      3.05
+    ],
+    "lang": "ar"
+  },
+  "AS": {
+    "name": "American Samoa",
+    "capital": [
+      -14.26666667,
+      -170.7
+    ],
+    "lang": "en"
+  },
+  "AD": {
+    "name": "Andorra",
+    "capital": [
+      42.5,
+      1.516667
+    ],
+    "lang": "ca"
+  },
+  "AO": {
+    "name": "Angola",
+    "capital": [
+      -8.833333333,
+      13.216667
+    ],
+    "lang": "pt"
+  },
+  "AI": {
+    "name": "Anguilla",
+    "capital": [
+      18.21666667,
+      -63.05
+    ],
+    "lang": "en"
+  },
+  "AQ": {
+    "name": "Antarctica",
+    "capital": [
+      -90.0,
+      0.0
+    ],
+    "lang": "en"
+  },
+  "AG": {
+    "name": "Antigua and Barbuda",
+    "capital": [
+      17.11666667,
+      -61.85
+    ],
+    "lang": "en"
+  },
+  "AR": {
+    "name": "Argentina",
+    "capital": [
+      -34.58333333,
+      -58.666667
+    ],
+    "lang": "es"
+  },
+  "AM": {
+    "name": "Armenia",
+    "capital": [
+      40.16666667,
+      44.5
+    ],
+    "lang": "hy"
+  },
+  "AW": {
+    "name": "Aruba",
+    "capital": [
+      12.51666667,
+      -70.033333
+    ],
+    "lang": "nl"
+  },
+  "AU": {
+    "name": "Australia",
+    "capital": [
+      -35.26666667,
+      149.133333
+    ],
+    "lang": "en"
+  },
+  "AT": {
+    "name": "Austria",
+    "capital": [
+      48.2,
+      16.366667
+    ],
+    "lang": "de"
+  },
+  "AZ": {
+    "name": "Azerbaijan",
+    "capital": [
+      40.38333333,
+      49.866667
+    ],
+    "lang": "az"
+  },
+  "BS": {
+    "name": "Bahamas (the)",
+    "capital": [
+      25.08333333,
+      -77.35
+    ],
+    "lang": "en"
+  },
+  "BH": {
+    "name": "Bahrain",
+    "capital": [
+      26.23333333,
+      50.566667
+    ],
+    "lang": "ar"
+  },
+  "BD": {
+    "name": "Bangladesh",
+    "capital": [
+      23.71666667,
+      90.4
+    ],
+    "lang": "bn"
+  },
+  "BB": {
+    "name": "Barbados",
+    "capital": [
+      13.1,
+      -59.616667
+    ],
+    "lang": "en"
+  },
+  "BY": {
+    "name": "Belarus",
+    "capital": [
+      53.9,
+      27.566667
+    ],
+    "lang": "be"
+  },
+  "BE": {
+    "name": "Belgium",
+    "capital": [
+      50.83333333,
+      4.333333
+    ],
+    "lang": "nl"
+  },
+  "BZ": {
+    "name": "Belize",
+    "capital": [
+      17.25,
+      -88.766667
+    ],
+    "lang": "en"
+  },
+  "BJ": {
+    "name": "Benin",
+    "capital": [
+      6.483333333,
+      2.616667
+    ],
+    "lang": "fr"
+  },
+  "BM": {
+    "name": "Bermuda",
+    "capital": [
+      32.28333333,
+      -64.783333
+    ],
+    "lang": "en"
+  },
+  "BT": {
+    "name": "Bhutan",
+    "capital": [
+      27.46666667,
+      89.65
+    ],
+    "lang": "dz"
+  },
+  "BO": {
+    "name": "Bolivia (Plurinational State of)",
+    "capital": [
+      -16.5,
+      -68.15
+    ],
+    "lang": "es"
+  },
+  "BQ": {
+    "name": "Bonaire, Sint Eustatius and Saba",
+    "capital": [
+      12.15,
+      -68.266667
+    ],
+    "lang": "nl"
+  },
+  "BA": {
+    "name": "Bosnia and Herzegovina",
+    "capital": [
+      43.86666667,
+      18.416667
+    ],
+    "lang": "bs"
+  },
+  "BW": {
+    "name": "Botswana",
+    "capital": [
+      -24.63333333,
+      25.9
+    ],
+    "lang": "en"
+  },
+  "BV": {
+    "name": "Bouvet Island",
+    "capital": [
+      -54.43333333,
+      3.4
+    ],
+    "lang": "NO"
+  },
+  "BR": {
+    "name": "Brazil",
+    "capital": [
+      -15.78333333,
+      -47.916667
+    ],
+    "lang": "pt"
+  },
+  "IO": {
+    "name": "British Indian Ocean Territory (the)",
+    "capital": [
+      -7.333333333,
+      72.416667
+    ],
+    "lang": "en"
+  },
+  "BN": {
+    "name": "Brunei Darussalam",
+    "capital": [
+      4.883333333,
+      114.933333
+    ],
+    "lang": "ms"
+  },
+  "BG": {
+    "name": "Bulgaria",
+    "capital": [
+      42.68333333,
+      23.316667
+    ],
+    "lang": "bg"
+  },
+  "BF": {
+    "name": "Burkina Faso",
+    "capital": [
+      12.36666667,
+      -1.516667
+    ],
+    "lang": "fr"
+  },
+  "BI": {
+    "name": "Burundi",
+    "capital": [
+      -3.366666667,
+      29.35
+    ],
+    "lang": "rn"
+  },
+  "CV": {
+    "name": "Cabo Verde",
+    "capital": [
+      14.91666667,
+      -23.516667
+    ],
+    "lang": "pt"
+  },
+  "KH": {
+    "name": "Cambodia",
+    "capital": [
+      11.55,
+      104.916667
+    ],
+    "lang": "km"
+  },
+  "CM": {
+    "name": "Cameroon",
+    "capital": [
+      3.866666667,
+      11.516667
+    ],
+    "lang": "fr"
+  },
+  "CA": {
+    "name": "Canada",
+    "capital": [
+      45.41666667,
+      -75.7
+    ],
+    "lang": "en"
+  },
+  "KY": {
+    "name": "Cayman Islands (the)",
+    "capital": [
+      19.3,
+      -81.383333
+    ],
+    "lang": "en"
+  },
+  "CF": {
+    "name": "Central African Republic (the)",
+    "capital": [
+      4.366666667,
+      18.583333
+    ],
+    "lang": "fr"
+  },
+  "TD": {
+    "name": "Chad",
+    "capital": [
+      12.1,
+      15.033333
+    ],
+    "lang": "fr"
+  },
+  "CL": {
+    "name": "Chile",
+    "capital": [
+      -33.45,
+      -70.666667
+    ],
+    "lang": "es"
+  },
+  "CN": {
+    "name": "China",
+    "capital": [
+      39.91666667,
+      116.383333
+    ],
+    "lang": "zh"
+  },
+  "CX": {
+    "name": "Christmas Island",
+    "capital": [
+      -10.4475,
+      105.6904
+    ],
+    "lang": "en"
+  },
+  "CC": {
+    "name": "Cocos (Keeling) Islands (the)",
+    "capital": [
+      -12.1642,
+      96.8708
+    ],
+    "lang": "en"
+  },
+  "CO": {
+    "name": "Colombia",
+    "capital": [
+      4.711,
+      -74.0721
+    ],
+    "lang": "es"
+  },
+  "KM": {
+    "name": "Comoros (the)",
+    "capital": [
+      -11.875,
+      43.8722
+    ],
+    "lang": "ar"
+  },
+  "CD": {
+    "name": "Congo (the Democratic Republic of the)",
+    "capital": [
+      -4.0383,
+      21.7587
+    ],
+    "lang": "fr"
+  },
+  "CG": {
+    "name": "Congo (the)",
+    "capital": [
+      -4.2634,
+      15.2429
+    ],
+    "lang": "fr"
+  },
+  "CK": {
+    "name": "Cook Islands (the)",
+    "capital": [
+      -21.2367,
+      -159.7777
+    ],
+    "lang": "en"
+  },
+  "CR": {
+    "name": "Costa Rica",
+    "capital": [
+      9.9281,
+      -84.0907
+    ],
+    "lang": "es"
+  },
+  "CI": {
+    "name": "Côte d'Ivoire",
+    "capital": [
+      7.54,
+      -5.5471
+    ],
+    "lang": "fr"
+  },
+  "HR": {
+    "name": "Croatia",
+    "capital": [
+      45.815,
+      15.9819
+    ],
+    "lang": "hr"
+  },
+  "CU": {
+    "name": "Cuba",
+    "capital": [
+      23.1136,
+      -82.3666
+    ],
+    "lang": "es"
+  },
+  "CW": {
+    "name": "Curaçao",
+    "capital": [
+      12.1696,
+      -68.99
+    ],
+    "lang": "nl"
+  },
+  "CY": {
+    "name": "Cyprus",
+    "capital": [
+      35.1856,
+      33.3823
+    ],
+    "lang": "el"
+  },
+  "CZ": {
+    "name": "Czechia",
+    "capital": [
+      50.0755,
+      14.4378
+    ],
+    "lang": "cs"
+  },
+  "DK": {
+    "name": "Denmark",
+    "capital": [
+      55.6761,
+      12.5683
+    ],
+    "lang": "da"
+  },
+  "DJ": {
+    "name": "Djibouti",
+    "capital": [
+      11.8251,
+      42.5903
+    ],
+    "lang": "fr"
+  },
+  "DM": {
+    "name": "Dominica",
+    "capital": [
+      15.4145,
+      -61.37098
+    ],
+    "lang": "en"
+  },
+  "DO": {
+    "name": "Dominican Republic (the)",
+    "capital": [
+      18.4861,
+      -69.9312
+    ],
+    "lang": "es"
+  },
+  "EC": {
+    "name": "Ecuador",
+    "capital": [
+      -1.8312,
+      -78.1834
+    ],
+    "lang": "es"
+  },
+  "EG": {
+    "name": "Egypt",
+    "capital": [
+      30.0444,
+      31.2357
+    ],
+    "lang": "ar"
+  },
+  "SV": {
+    "name": "El Salvador",
+    "capital": [
+      13.7942,
+      -88.8965
+    ],
+    "lang": "es"
+  },
+  "GQ": {
+    "name": "Equatorial Guinea",
+    "capital": [
+      3.7508,
+      8.7832
+    ],
+    "lang": "es"
+  },
+  "ER": {
+    "name": "Eritrea",
+    "capital": [
+      15.1794,
+      39.7823
+    ],
+    "lang": "aa"
+  },
+  "EE": {
+    "name": "Estonia",
+    "capital": [
+      59.437,
+      24.7536
+    ],
+    "lang": "et"
+  },
+  "SZ": {
+    "name": "Eswatini",
+    "capital": [
+      -26.5225,
+      31.4659
+    ],
+    "lang": "en"
+  },
+  "ET": {
+    "name": "Ethiopia",
+    "capital": [
+      9.145,
+      40.4897
+    ],
+    "lang": "am"
+  },
+  "FK": {
+    "name": "Falkland Islands (the) [Malvinas]",
+    "capital": [
+      -51.7963,
+      -59.5236
+    ],
+    "lang": "en"
+  },
+  "FO": {
+    "name": "Faroe Islands (the)",
+    "capital": [
+      61.8926,
+      -6.9118
+    ],
+    "lang": "fo"
+  },
+  "FJ": {
+    "name": "Fiji",
+    "capital": [
+      -18.1248,
+      178.4501
+    ],
+    "lang": "en"
+  },
+  "FI": {
+    "name": "Finland",
+    "capital": [
+      60.1699,
+      24.9384
+    ],
+    "lang": "fi"
+  },
+  "FR": {
+    "name": "France",
+    "capital": [
+      48.8566,
+      2.3522
+    ],
+    "lang": "fr"
+  },
+  "GF": {
+    "name": "French Guiana",
+    "capital": [
+      3.9339,
+      -53.1258
+    ],
+    "lang": "fr"
+  },
+  "PF": {
+    "name": "French Polynesia",
+    "capital": [
+      -17.6797,
+      -149.4068
+    ],
+    "lang": "fr"
+  },
+  "TF": {
+    "name": "French Southern Territories (the)",
+    "capital": [
+      -49.2803,
+      69.3481
+    ],
+    "lang": "fr"
+  },
+  "GA": {
+    "name": "Gabon",
+    "capital": [
+      0.3896,
+      9.4546
+    ],
+    "lang": "fr"
+  },
+  "GM": {
+    "name": "Gambia (the)",
+    "capital": [
+      13.4531,
+      -16.5778
+    ],
+    "lang": "en"
+  },
+  "GE": {
+    "name": "Georgia",
+    "capital": [
+      41.7151,
+      44.8271
+    ],
+    "lang": "ka"
+  },
+  "DE": {
+    "name": "Germany",
+    "capital": [
+      52.52,
+      13.405
+    ],
+    "lang": "de"
+  },
+  "GH": {
+    "name": "Ghana",
+    "capital": [
+      5.6037,
+      -0.187
+    ],
+    "lang": "en"
+  },
+  "GI": {
+    "name": "Gibraltar",
+    "capital": [
+      36.1408,
+      -5.3536
+    ],
+    "lang": "en"
+  },
+  "GR": {
+    "name": "Greece",
+    "capital": [
+      37.9838,
+      23.7275
+    ],
+    "lang": "el"
+  },
+  "GL": {
+    "name": "Greenland",
+    "capital": [
+      64.1814,
+      -51.6941
+    ],
+    "lang": "kl"
+  },
+  "GD": {
+    "name": "Grenada",
+    "capital": [
+      12.0564,
+      -61.7485
+    ],
+    "lang": "en"
+  },
+  "GP": {
+    "name": "Guadeloupe",
+    "capital": [
+      16.265,
+      -61.551
+    ],
+    "lang": "fr"
+  },
+  "GU": {
+    "name": "Guam",
+    "capital": [
+      13.4443,
+      144.7937
+    ],
+    "lang": "en"
+  },
+  "GT": {
+    "name": "Guatemala",
+    "capital": [
+      14.6349,
+      -90.5069
+    ],
+    "lang": "es"
+  },
+  "GG": {
+    "name": "Guernsey",
+    "capital": [
+      49.4482,
+      -2.5895
+    ],
+    "lang": "en"
+  },
+  "GN": {
+    "name": "Guinea",
+    "capital": [
+      9.9456,
+      -9.6966
+    ],
+    "lang": "fr"
+  },
+  "GW": {
+    "name": "Guinea-Bissau",
+    "capital": [
+      11.803749,
+      -15.180413
+    ],
+    "lang": "pt"
+  },
+  "GY": {
+    "name": "Guyana",
+    "capital": [
+      6.801279,
+      -58.155125
+    ],
+    "lang": "en"
+  },
+  "HT": {
+    "name": "Haiti",
+    "capital": [
+      18.594395,
+      -72.307433
+    ],
+    "lang": "fr"
+  },
+  "HM": {
+    "name": "Heard Island and McDonald Islands",
+    "capital": [
+      -53.08181,
+      73.504158
+    ],
+    "lang": "en"
+  },
+  "VA": {
+    "name": "Holy See (the)",
+    "capital": [
+      41.902916,
+      12.453389
+    ],
+    "lang": "it"
+  },
+  "HN": {
+    "name": "Honduras",
+    "capital": [
+      14.081536,
+      -87.20681
+    ],
+    "lang": "es"
+  },
+  "HK": {
+    "name": "Hong Kong",
+    "capital": [
+      22.396428,
+      114.109497
+    ],
+    "lang": "zh"
+  },
+  "HU": {
+    "name": "Hungary",
+    "capital": [
+      47.162494,
+      19.503304
+    ],
+    "lang": "hu"
+  },
+  "IS": {
+    "name": "Iceland",
+    "capital": [
+      64.963051,
+      -19.020835
+    ],
+    "lang": "is"
+  },
+  "IN": {
+    "name": "India",
+    "capital": [
+      28.613939,
+      77.209021
+    ],
+    "lang": "hi"
+  },
+  "ID": {
+    "name": "Indonesia",
+    "capital": [
+      -6.211544,
+      106.845172
+    ],
+    "lang": "id"
+  },
+  "IR": {
+    "name": "Iran (Islamic Republic of)",
+    "capital": [
+      35.689198,
+      51.388974
+    ],
+    "lang": "fa"
+  },
+  "IQ": {
+    "name": "Iraq",
+    "capital": [
+      33.223191,
+      43.679291
+    ],
+    "lang": "ar"
+  },
+  "IE": {
+    "name": "Ireland",
+    "capital": [
+      53.349805,
+      -6.26031
+    ],
+    "lang": "en"
+  },
+  "IM": {
+    "name": "Isle of Man",
+    "capital": [
+      54.236107,
+      -4.548056
+    ],
+    "lang": "en"
+  },
+  "IL": {
+    "name": "Israel",
+    "capital": [
+      31.768319,
+      35.21371
+    ],
+    "lang": "he"
+  },
+  "IT": {
+    "name": "Italy",
+    "capital": [
+      41.87194,
+      12.56738
+    ],
+    "lang": "it"
+  },
+  "JM": {
+    "name": "Jamaica",
+    "capital": [
+      18.109581,
+      -77.297508
+    ],
+    "lang": "en"
+  },
+  "JP": {
+    "name": "Japan",
+    "capital": [
+      35.689487,
+      139.691706
+    ],
+    "lang": "ja"
+  },
+  "JE": {
+    "name": "Jersey",
+    "capital": [
+      49.214439,
+      -2.13125
+    ],
+    "lang": "en"
+  },
+  "JO": {
+    "name": "Jordan",
+    "capital": [
+      31.953226,
+      35.911487
+    ],
+    "lang": "ar"
+  },
+  "KZ": {
+    "name": "Kazakhstan",
+    "capital": [
+      51.165691,
+      71.430564
+    ],
+    "lang": "kk"
+  },
+  "KE": {
+    "name": "Kenya",
+    "capital": [
+      -1.292066,
+      36.821946
+    ],
+    "lang": "sw"
+  },
+  "KI": {
+    "name": "Kiribati",
+    "capital": [
+      -3.370417,
+      -168.734039
+    ],
+    "lang": "en"
+  },
+  "KP": {
+    "name": "Korea (the Democratic People's Republic of)",
+    "capital": [
+      39.031944,
+      125.753056
+    ],
+    "lang": "ko"
+  },
+  "KR": {
+    "name": "Korea (the Republic of)",
+    "capital": [
+      37.566535,
+      126.977969
+    ],
+    "lang": "ko"
+  },
+  "KW": {
+    "name": "Kuwait",
+    "capital": [
+      29.375859,
+      47.977405
+    ],
+    "lang": "ar"
+  },
+  "KG": {
+    "name": "Kyrgyzstan",
+    "capital": [
+      41.20438,
+      74.766098
+    ],
+    "lang": "ky"
+  },
+  "LA": {
+    "name": "Lao People's Democratic Republic (the)",
+    "capital": [
+      17.975706,
+      102.633104
+    ],
+    "lang": "lo"
+  },
+  "LV": {
+    "name": "Latvia",
+    "capital": [
+      56.879635,
+      24.603189
+    ],
+    "lang": "lv"
+  },
+  "LB": {
+    "name": "Lebanon",
+    "capital": [
+      33.854721,
+      35.862285
+    ],
+    "lang": "ar"
+  },
+  "LS": {
+    "name": "Lesotho",
+    "capital": [
+      -29.609988,
+      28.233608
+    ],
+    "lang": "en"
+  },
+  "LR": {
+    "name": "Liberia",
+    "capital": [
+      6.300611,
+      -10.7969
+    ],
+    "lang": "en"
+  },
+  "LY": {
+    "name": "Libya",
+    "capital": [
+      32.887209,
+      13.191338
+    ],
+    "lang": "ar"
+  },
+  "LI": {
+    "name": "Liechtenstein",
+    "capital": [
+      47.166,
+      9.555373
+    ],
+    "lang": "de"
+  },
+  "LT": {
+    "name": "Lithuania",
+    "capital": [
+      55.169438,
+      23.881275
+    ],
+    "lang": "lt"
+  },
+  "LU": {
+    "name": "Luxembourg",
+    "capital": [
+      49.815273,
+      6.129583
+    ],
+    "lang": "lb"
+  },
+  "MO": {
+    "name": "Macao",
+    "capital": [
+      22.198745,
+      113.543873
+    ],
+    "lang": "zh"
+  },
+  "MK": {
+    "name": "Republic of North Macedonia",
+    "capital": [
+      41.608635,
+      21.745275
+    ],
+    "lang": "mk"
+  },
+  "MG": {
+    "name": "Madagascar",
+    "capital": [
+      -18.766947,
+      46.869107
+    ],
+    "lang": "mg"
+  },
+  "MW": {
+    "name": "Malawi",
+    "capital": [
+      -13.254308,
+      34.301525
+    ],
+    "lang": "en"
+  },
+  "MY": {
+    "name": "Malaysia",
+    "capital": [
+      3.139003,
+      101.686855
+    ],
+    "lang": "ms"
+  },
+  "MV": {
+    "name": "Maldives",
+    "capital": [
+      4.175496,
+      73.509347
+    ],
+    "lang": "dv"
+  },
+  "ML": {
+    "name": "Mali",
+    "capital": [
+      12.639232,
+      -8.002889
+    ],
+    "lang": "fr"
+  },
+  "MT": {
+    "name": "Malta",
+    "capital": [
+      35.937496,
+      14.375416
+    ],
+    "lang": "mt"
+  },
+  "MH": {
+    "name": "Marshall Islands (the)",
+    "capital": [
+      7.131474,
+      171.184478
+    ],
+    "lang": "en"
+  },
+  "MQ": {
+    "name": "Martinique",
+    "capital": [
+      14.641528,
+      -61.024174
+    ],
+    "lang": "fr"
+  },
+  "MR": {
+    "name": "Mauritania",
+    "capital": [
+      21.00789,
+      -10.940835
+    ],
+    "lang": "ar"
+  },
+  "MU": {
+    "name": "Mauritius",
+    "capital": [
+      -20.348404,
+      57.552152
+    ],
+    "lang": "en"
+  },
+  "YT": {
+    "name": "Mayotte",
+    "capital": [
+      -12.7806,
+      45.227798
+    ],
+    "lang": "fr"
+  },
+  "MX": {
+    "name": "Mexico",
+    "capital": [
+      19.432608,
+      -99.133209
+    ],
+    "lang": "es"
+  },
+  "FM": {
+    "name": "Micronesia (Federated States of)",
+    "capital": [
+      6.887465,
+      158.215271
+    ],
+    "lang": "en"
+  },
+  "MD": {
+    "name": "Moldova (the Republic of)",
+    "capital": [
+      47.012428,
+      28.845315
+    ],
+    "lang": "ro"
+  },
+  "MC": {
+    "name": "Monaco",
+    "capital": [
+      43.731142,
+      7.419653
+    ],
+    "lang": "fr"
+  },
+  "MN": {
+    "name": "Mongolia",
+    "capital": [
+      47.920388,
+      106.917766
+    ],
+    "lang": "mn"
+  },
+  "ME": {
+    "name": "Montenegro",
+    "capital": [
+      42.442575,
+      19.268646
+    ],
+    "lang": "sr"
+  },
+  "MS": {
+    "name": "Montserrat",
+    "capital": [
+      16.742498,
+      -62.187366
+    ],
+    "lang": "en"
+  },
+  "MA": {
+    "name": "Morocco",
+    "capital": [
+      33.97159,
+      -6.849812
+    ],
+    "lang": "ar"
+  },
+  "MZ": {
+    "name": "Mozambique",
+    "capital": [
+      -25.96643,
+      32.580518
+    ],
+    "lang": "pt"
+  },
+  "MM": {
+    "name": "Myanmar",
+    "capital": [
+      16.840893,
+      96.173965
+    ],
+    "lang": "my"
+  },
+  "NA": {
+    "name": "Namibia",
+    "capital": [
+      -22.560881,
+      17.065755
+    ],
+    "lang": "en"
+  },
+  "NR": {
+    "name": "Nauru",
+    "capital": [
+      -0.522778,
+      166.931503
+    ],
+    "lang": "en"
+  },
+  "NP": {
+    "name": "Nepal",
+    "capital": [
+      27.717245,
+      85.32396
+    ],
+    "lang": "ne"
+  },
+  "NL": {
+    "name": "Netherlands (the)",
+    "capital": [
+      52.37454,
+      4.897976
+    ],
+    "lang": "nl"
+  },
+  "NC": {
+    "name": "New Caledonia",
+    "capital": [
+      -22.275807,
+      166.458035
+    ],
+    "lang": "fr"
+  },
+  "NZ": {
+    "name": "New Zealand",
+    "capital": [
+      -41.28646,
+      174.776236
+    ],
+    "lang": "en"
+  },
+  "NI": {
+    "name": "Nicaragua",
+    "capital": [
+      12.136389,
+      -86.251389
+    ],
+    "lang": "es"
+  },
+  "NE": {
+    "name": "Niger (the)",
+    "capital": [
+      13.511596,
+      2.125385
+    ],
+    "lang": "fr"
+  },
+  "NG": {
+    "name": "Nigeria",
+    "capital": [
+      9.076478,
+      7.398574
+    ],
+    "lang": "en"
+  },
+  "NU": {
+    "name": "Niue",
+    "capital": [
+      -19.054445,
+      -169.867233
+    ],
+    "lang": "en"
+  },
+  "NF": {
+    "name": "Norfolk Island",
+    "capital": [
+      -29.040835,
+      167.954712
+    ],
+    "lang": "en"
+  },
+  "MP": {
+    "name": "Northern Mariana Islands (the)",
+    "capital": [
+      15.106389,
+      145.706944
+    ],
+    "lang": "en"
+  },
+  "NO": {
+    "name": "Norway",
+    "capital": [
+      59.913869,
+      10.752245
+    ],
+    "lang": "no"
+  },
+  "OM": {
+    "name": "Oman",
+    "capital": [
+      23.614328,
+      58.545284
+    ],
+    "lang": "ar"
+  },
+  "PK": {
+    "name": "Pakistan",
+    "capital": [
+      33.68442,
+      73.047884
+    ],
+    "lang": "ur"
+  },
+  "PW": {
+    "name": "Palau",
+    "capital": [
+      7.51498,
+      134.58252
+    ],
+    "lang": "en"
+  },
+  "PS": {
+    "name": "Palestine, State of",
+    "capital": [
+      31.952162,
+      35.233154
+    ],
+    "lang": "ar"
+  },
+  "PA": {
+    "name": "Panama",
+    "capital": [
+      8.994269,
+      -79.518792
+    ],
+    "lang": "es"
+  },
+  "PG": {
+    "name": "Papua New Guinea",
+    "capital": [
+      -9.4438,
+      147.180267
+    ],
+    "lang": "en"
+  },
+  "PY": {
+    "name": "Paraguay",
+    "capital": [
+      -25.263739,
+      -57.575926
+    ],
+    "lang": "es"
+  },
+  "PE": {
+    "name": "Peru",
+    "capital": [
+      -12.046374,
+      -77.042793
+    ],
+    "lang": "es"
+  },
+  "PH": {
+    "name": "Philippines (the)",
+    "capital": [
+      14.595781,
+      120.977062
+    ],
+    "lang": "fil"
+  },
+  "PN": {
+    "name": "Pitcairn",
+    "capital": [
+      -25.066925,
+      -130.101005
+    ],
+    "lang": "en"
+  },
+  "PL": {
+    "name": "Poland",
+    "capital": [
+      52.229676,
+      21.012229
+    ],
+    "lang": "pl"
+  },
+  "PT": {
+    "name": "Portugal",
+    "capital": [
+      38.722252,
+      -9.139337
+    ],
+    "lang": "pt"
+  },
+  "PR": {
+    "name": "Puerto Rico",
+    "capital": [
+      18.220833,
+      -66.590149
+    ],
+    "lang": "es"
+  },
+  "QA": {
+    "name": "Qatar",
+    "capital": [
+      25.285447,
+      51.53104
+    ],
+    "lang": "ar"
+  },
+  "RE": {
+    "name": "Réunion",
+    "capital": [
+      -21.115141,
+      55.536384
+    ],
+    "lang": "fr"
+  },
+  "RO": {
+    "name": "Romania",
+    "capital": [
+      44.430481,
+      26.12298
+    ],
+    "lang": "ro"
+  },
+  "RU": {
+    "name": "Russian Federation (the)",
+    "capital": [
+      55.755826,
+      37.6173
+    ],
+    "lang": "ru"
+  },
+  "RW": {
+    "name": "Rwanda",
+    "capital": [
+      -1.940278,
+      29.873888
+    ],
+    "lang": "rw"
+  },
+  "BL": {
+    "name": "Saint Barthélemy",
+    "capital": [
+      17.9,
+      -62.833333
+    ],
+    "lang": "fr"
+  },
+  "SH": {
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "capital": [
+      -15.941441,
+      -5.717787
+    ],
+    "lang": "en"
+  },
+  "KN": {
+    "name": "Saint Kitts and Nevis",
+    "capital": [
+      17.34354,
+      -62.75585
+    ],
+    "lang": "en"
+  },
+  "LC": {
+    "name": "Saint Lucia",
+    "capital": [
+      14.010109,
+      -60.987469
+    ],
+    "lang": "en"
+  },
+  "MF": {
+    "name": "Saint Martin (French part)",
+    "capital": [
+      18.0731,
+      -63.0822
+    ],
+    "lang": "fr"
+  },
+  "PM": {
+    "name": "Saint Pierre and Miquelon",
+    "capital": [
+      46.78125,
+      -56.175558
+    ],
+    "lang": "fr"
+  },
+  "VC": {
+    "name": "Saint Vincent and the Grenadines",
+    "capital": [
+      13.253819,
+      -61.197097
+    ],
+    "lang": "en"
+  },
+  "WS": {
+    "name": "Samoa",
+    "capital": [
+      -13.759029,
+      -172.104629
+    ],
+    "lang": "sm"
+  },
+  "SM": {
+    "name": "San Marino",
+    "capital": [
+      43.94236,
+      12.457777
+    ],
+    "lang": "it"
+  },
+  "ST": {
+    "name": "Sao Tome and Principe",
+    "capital": [
+      0.18636,
+      6.613081
+    ],
+    "lang": "pt"
+  },
+  "SA": {
+    "name": "Saudi Arabia",
+    "capital": [
+      24.713552,
+      46.675296
+    ],
+    "lang": "ar"
+  },
+  "SN": {
+    "name": "Senegal",
+    "capital": [
+      14.6937,
+      -17.44406
+    ],
+    "lang": "fr"
+  },
+  "RS": {
+    "name": "Serbia",
+    "capital": [
+      44.786568,
+      20.448921
+    ],
+    "lang": "sr"
+  },
+  "SC": {
+    "name": "Seychelles",
+    "capital": [
+      -4.619143,
+      55.451315
+    ],
+    "lang": "fr"
+  },
+  "SL": {
+    "name": "Sierra Leone",
+    "capital": [
+      8.484,
+      -13.22994
+    ],
+    "lang": "en"
+  },
+  "SG": {
+    "name": "Singapore",
+    "capital": [
+      1.29027,
+      103.851959
+    ],
+    "lang": "en"
+  },
+  "SX": {
+    "name": "Sint Maarten (Dutch part)",
+    "capital": [
+      18.02608,
+      -63.04551
+    ],
+    "lang": "nl"
+  },
+  "SK": {
+    "name": "Slovakia",
+    "capital": [
+      48.14816,
+      17.10674
+    ],
+    "lang": "sk"
+  },
+  "SI": {
+    "name": "Slovenia",
+    "capital": [
+      46.056946,
+      14.505751
+    ],
+    "lang": "sl"
+  },
+  "SB": {
+    "name": "Solomon Islands",
+    "capital": [
+      -9.44314,
+      159.9499
+    ],
+    "lang": "en"
+  },
+  "SO": {
+    "name": "Somalia",
+    "capital": [
+      2.046934,
+      45.318162
+    ],
+    "lang": "so"
+  },
+  "ZA": {
+    "name": "South Africa",
+    "capital": [
+      -25.746111,
+      28.188056
+    ],
+    "lang": "en"
+  },
+  "GS": {
+    "name": "South Georgia and the South Sandwich Islands",
+    "capital": [
+      -54.28111,
+      -36.50806
+    ],
+    "lang": "en"
+  },
+  "SS": {
+    "name": "South Sudan",
+    "capital": [
+      4.85165,
+      31.58247
+    ],
+    "lang": "en"
+  },
+  "ES": {
+    "name": "Spain",
+    "capital": [
+      40.4165,
+      -3.70256
+    ],
+    "lang": "es"
+  },
+  "LK": {
+    "name": "Sri Lanka",
+    "capital": [
+      6.934996,
+      79.853848
+    ],
+    "lang": "si"
+  },
+  "SD": {
+    "name": "Sudan (the)",
+    "capital": [
+      15.5881,
+      32.534
+    ],
+    "lang": "ar"
+  },
+  "SR": {
+    "name": "Suriname",
+    "capital": [
+      5.832,
+      -55.167
+    ],
+    "lang": "nl"
+  },
+  "SJ": {
+    "name": "Svalbard and Jan Mayen",
+    "capital": [
+      78.2186,
+      15.6357
+    ],
+    "lang": "no"
+  },
+  "SE": {
+    "name": "Sweden",
+    "capital": [
+      59.334591,
+      18.06324
+    ],
+    "lang": "sv"
+  },
+  "CH": {
+    "name": "Switzerland",
+    "capital": [
+      46.947974,
+      7.447447
+    ],
+    "lang": "de"
+  },
+  "SY": {
+    "name": "Syrian Arab Republic",
+    "capital": [
+      33.513807,
+      36.276528
+    ],
+    "lang": "ar"
+  },
+  "TW": {
+    "name": "Taiwan (Province of China)",
+    "capital": [
+      25.04776,
+      121.53185
+    ],
+    "lang": "zh"
+  },
+  "TJ": {
+    "name": "Tajikistan",
+    "capital": [
+      38.5737,
+      68.7738
+    ],
+    "lang": "tg"
+  },
+  "TZ": {
+    "name": "Tanzania, United Republic of",
+    "capital": [
+      -6.792354,
+      39.208328
+    ],
+    "lang": "sw"
+  },
+  "TH": {
+    "name": "Thailand",
+    "capital": [
+      13.736717,
+      100.523186
+    ],
+    "lang": "th"
+  },
+  "TL": {
+    "name": "Timor-Leste",
+    "capital": [
+      -8.556856,
+      125.560314
+    ],
+    "lang": "pt"
+  },
+  "TG": {
+    "name": "Togo",
+    "capital": [
+      6.13748,
+      1.21227
+    ],
+    "lang": "fr"
+  },
+  "TK": {
+    "name": "Tokelau",
+    "capital": [
+      -9.16682,
+      -171.8399
+    ],
+    "lang": "en"
+  },
+  "TO": {
+    "name": "Tonga",
+    "capital": [
+      -21.13417,
+      -175.20469
+    ],
+    "lang": "to"
+  },
+  "TT": {
+    "name": "Trinidad and Tobago",
+    "capital": [
+      10.65962,
+      -61.4789
+    ],
+    "lang": "en"
+  },
+  "TN": {
+    "name": "Tunisia",
+    "capital": [
+      36.806389,
+      10.181667
+    ],
+    "lang": "ar"
+  },
+  "TR": {
+    "name": "Turkey",
+    "capital": [
+      39.933365,
+      32.859741
+    ],
+    "lang": "tr"
+  },
+  "TM": {
+    "name": "Turkmenistan",
+    "capital": [
+      38.969719,
+      59.556278
+    ],
+    "lang": "tk"
+  },
+  "TC": {
+    "name": "Turks and Caicos Islands (the)",
+    "capital": [
+      21.46646,
+      -71.13591
+    ],
+    "lang": "en"
+  },
+  "TV": {
+    "name": "Tuvalu",
+    "capital": [
+      -7.4784,
+      178.679
+    ],
+    "lang": "en"
+  },
+  "UG": {
+    "name": "Uganda",
+    "capital": [
+      0.317712,
+      32.581353
+    ],
+    "lang": "en"
+  },
+  "UA": {
+    "name": "Ukraine",
+    "capital": [
+      50.4501,
+      30.5234
+    ],
+    "lang": "uk"
+  },
+  "AE": {
+    "name": "United Arab Emirates (the)",
+    "capital": [
+      24.466667,
+      54.366667
+    ],
+    "lang": "ar"
+  },
+  "GB": {
+    "name": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "capital": [
+      51.50853,
+      -0.076132
+    ],
+    "lang": "en"
+  },
+  "UM": {
+    "name": "United States Minor Outlying Islands (the)",
+    "capital": [
+      19.295374,
+      166.628044
+    ],
+    "lang": "en"
+  },
+  "US": {
+    "name": "United States of America (the)",
+    "capital": [
+      38.889931,
+      -77.009003
+    ],
+    "lang": "en"
+  },
+  "UY": {
+    "name": "Uruguay",
+    "capital": [
+      -34.901113,
+      -56.164531
+    ],
+    "lang": "es"
+  },
+  "UZ": {
+    "name": "Uzbekistan",
+    "capital": [
+      41.311081,
+      69.240562
+    ],
+    "lang": "uz"
+  },
+  "VU": {
+    "name": "Vanuatu",
+    "capital": [
+      -17.733251,
+      168.327325
+    ],
+    "lang": "bi"
+  },
+  "VE": {
+    "name": "Venezuela (Bolivarian Republic of)",
+    "capital": [
+      10.488011,
+      -66.87919
+    ],
+    "lang": "es"
+  },
+  "VN": {
+    "name": "Viet Nam",
+    "capital": [
+      21.027764,
+      105.83416
+    ],
+    "lang": "vi"
+  },
+  "VG": {
+    "name": "Virgin Islands (British)",
+    "capital": [
+      18.420695,
+      -64.639968
+    ],
+    "lang": "en"
+  },
+  "VI": {
+    "name": "Virgin Islands (U.S.)",
+    "capital": [
+      18.335765,
+      -64.896335
+    ],
+    "lang": "en"
+  },
+  "WF": {
+    "name": "Wallis and Futuna",
+    "capital": [
+      -13.281757,
+      -176.173732
+    ],
+    "lang": "fr"
+  },
+  "EH": {
+    "name": "Western Sahara",
+    "capital": [
+      27.153611,
+      -13.203333
+    ],
+    "lang": "ar"
+  },
+  "YE": {
+    "name": "Yemen",
+    "capital": [
+      15.369445,
+      44.191006
+    ],
+    "lang": "ar"
+  },
+  "ZM": {
+    "name": "Zambia",
+    "capital": [
+      -15.398193,
+      28.293682
+    ],
+    "lang": "en"
+  },
+  "ZW": {
+    "name": "Zimbabwe",
+    "capital": [
+      -17.825166,
+      31.03351
+    ],
+    "lang": "en"
+  },
+  "XK": {
+    "name": "Kosovo",
+    "capital": [
+      42.66345552861059,
+      21.1614718557577
+    ],
+    "lang": "sq"
+  }
+}

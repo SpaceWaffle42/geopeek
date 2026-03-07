@@ -7,31 +7,27 @@ from typing import Optional
 class MapRender:
     """Folium setup, change width and height here"""
 
-    maplayers = {    
+    maplayers = {
         "OSM": (
             "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
             '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
             "OSM",
         ),
-
         "OpenTopoMap": (
             "https://a.tile.opentopomap.org/{z}/{x}/{y}.png",
             'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (CC-BY-SA)',
             "TopoMap",
         ),
-        
         "Wikimedia": (
             "https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png",
             '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
             "Wikimedia",
         ),
-        
         "OpenFreeMap": (
             "https://tiles.openfreemap.org/osm/{z}/{x}/{y}.png",
             '&copy; <a href="https://openfreemap.org">OpenFreeMap</a>',
             "OpenFreeMap",
         ),
-        
         "Stadia Alidade Smooth": (
             "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png",
             '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
@@ -58,7 +54,6 @@ class MapRender:
             "MtbMap",
         ),
     }
-
 
     # mapoverlays = {
     #     # UK
@@ -108,7 +103,7 @@ class MapRender:
         self.marker_cluster = None
 
     def render(self):
-        """Folium render, the markers and layers are added here"""
+        """Folium render, the markers and layers are added here and this should be called last"""
 
         self.m = folium.Map(
             width=self.width,
@@ -121,7 +116,6 @@ class MapRender:
         self.marker_cluster = MarkerCluster(name="Markers").add_to(self.m)
 
         for tiles, name, attr, overlay, min_zoom, max_zoom in self.tiles:
-
             folium.TileLayer(
                 tiles=tiles,
                 attr=attr or f"© {name}",
@@ -200,7 +194,7 @@ class MapRender:
         folium.LayerControl().add_to(self.m)
 
         html_content = self.m.get_root().render()
-        with open("templates/map_test.html", "w") as f:
+        with open("templates/_map.html", "w") as f:
             f.write(html_content)
         return self
 

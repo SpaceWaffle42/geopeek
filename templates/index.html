@@ -4,14 +4,35 @@
 
 {% block content %}
 <div class="row">
-    <div class="content col s12 m2 grey darken-4 white-text text-darken-2">
 
+    <div class="content col s12 m2 grey darken-4 white-text text-darken-2">
+        <div class="col s12">
+            <ul class="tabs grey darken-3">
+                <li class="tab col s6"><a class="active" href="#search">Search</a></li>
+                <li class="tab col s6"><a href="#database">Database</a></li>
+            </ul>
+        </div>
+
+        <div id="search" class="col s12">
+            {{ youtube_module.create_card() | safe }}
+            {{ x_module.create_card() | safe }}
+        </div>
+
+        <div id="database" class="col s12">
+            {{ database_module.create_card() | safe }}
+        </div>
     </div>
 
     <div class="col s12 m10 grey darken-1">
-
         <iframe src="{{ url_for('map') }}" class="mapframe" title="Embedded content"></iframe>
-
     </div>
+
 </div>
+
+<!-- <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.tabs');
+        M.Tabs.init(elems);
+    });
+</script> -->
 {% endblock %}

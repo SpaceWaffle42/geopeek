@@ -37,6 +37,65 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
 }
 
+.content{
+  max-height: 55rem;
+  overflow: auto;
+}
+
+
+
+.datepicker-date-display {
+  background-color: #ee6e73 !important;
+}
+
+.datepicker-calendar-container {
+  background-color: #424242 !important;
+}
+
+.datepicker-controls .select-month input,
+.datepicker-controls .select-year input,
+.datepicker-table th {
+  color: aliceblue !important;
+}
+
+.dropdown-content.select-dropdown {
+  background-color: #424242 !important;
+}
+.dropdown-content.select-dropdown li span {
+  color: #ee6e73 !important;
+}
+
+.datepicker-controls .month-prev svg,
+.datepicker-controls .month-next svg {
+  fill: aliceblue !important;
+}
+
+.datepicker-table td .datepicker-day-button {
+  color: aliceblue !important;
+}
+
+.datepicker-table td .datepicker-day-button:focus,
+.datepicker-table td .datepicker-day-button:hover {
+  background-color: #ee6e7380 !important;
+}
+
+.datepicker-table td.is-selected .datepicker-day-button {
+  background-color: #212121 !important;
+  color: #ee6e73 !important;
+}
+
+.datepicker-table td.is-today .datepicker-day-button {
+  color: #ee6e73 !important;
+}
+
+.datepicker-footer .btn-flat {
+  color: #ee6e73 !important;
+}
+
+.datepicker-controls .month-prev:hover,
+.datepicker-controls .month-next:hover {
+  background-color: #ee6e7333 !important;
+}
 
 .custom-scrollbar {
   height: 200px; /* Set a fixed height to enable scrolling */
@@ -44,6 +103,8 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   scrollbar-width: thin; /* For Firefox, make the scrollbar thinner */
   scrollbar-color: red blue; /* For Firefox, tracker red, back bar blue */
 }
+
+
 
 ::-webkit-scrollbar {
   width: 12px;
