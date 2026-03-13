@@ -43,7 +43,7 @@ def index():
 @app.route("/index", methods=["GET", "POST"])
 def home():
     return redirect(url_for("index"))
-
+    
 @app.route('/favicon.ico')
 def favicon():
     return send_from_directory('static', 'favicon.ico', mimetype='image/x-icon')
@@ -54,7 +54,9 @@ def map():
     
     mapper = Mapper.MapRender()
     mapper.add_marker((0,100),tooltip="Angus",popup_context=popup.CreateImg(img_src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrSKCU00zc6mm0j-T2Sgm6txurUiT1TMw85N1Rq2DUwc0x4Ln3jMurYwLiOmef1ECGvMw7GhAStqfp55hqI0663wsMHLD6lqR5bFj-w&s=10",desc="defualt description",lat="0",lng="100",url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrSKCU00zc6mm0j-T2Sgm6txurUiT1TMw85N1Rq2DUwc0x4Ln3jMurYwLiOmef1ECGvMw7GhAStqfp55hqI0663wsMHLD6lqR5bFj-w&s=10",platform="YouTube"))
-
+    mapper.add_marker((10,100),tooltip="Angus",popup_context=popup.CreateImg(img_src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrSKCU00zc6mm0j-T2Sgm6txurUiT1TMw85N1Rq2DUwc0x4Ln3jMurYwLiOmef1ECGvMw7GhAStqfp55hqI0663wsMHLD6lqR5bFj-w&s=10",desc="defualt description",lat="0",lng="100",url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrSKCU00zc6mm0j-T2Sgm6txurUiT1TMw85N1Rq2DUwc0x4Ln3jMurYwLiOmef1ECGvMw7GhAStqfp55hqI0663wsMHLD6lqR5bFj-w&s=10",platform="YouTube"))
+    mapper.add_marker((2,100),tooltip="Angus",popup_context=popup.CreateImg(img_src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrSKCU00zc6mm0j-T2Sgm6txurUiT1TMw85N1Rq2DUwc0x4Ln3jMurYwLiOmef1ECGvMw7GhAStqfp55hqI0663wsMHLD6lqR5bFj-w&s=10",desc="defualt description",lat="0",lng="100",url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrSKCU00zc6mm0j-T2Sgm6txurUiT1TMw85N1Rq2DUwc0x4Ln3jMurYwLiOmef1ECGvMw7GhAStqfp55hqI0663wsMHLD6lqR5bFj-w&s=10",platform="YouTube"))
+    mapper.add_circle_marker((20,160),tooltip="Beef", popup_context=popup.CreateText("boom",lat="20",lng=160,platform="Youtube"))
     mapper.add_tile_layer(layer_name="Esri WorldImagery")
     mapper.render()
     return render_template("_map.html")

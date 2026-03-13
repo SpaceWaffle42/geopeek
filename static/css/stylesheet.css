@@ -42,10 +42,10 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   overflow: auto;
 }
 
-
-
+.leaflet-popup-content-wrapper, .leaflet-popup-tip
 .datepicker-date-display {
   background-color: #ee6e73 !important;
+  font-size: 30px !important;
 }
 
 .datepicker-calendar-container {

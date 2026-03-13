@@ -19,9 +19,9 @@ class Module(ABC):
         self.label = label
         self.col_size = col_size
 
-    @abstractmethod
-    def create_card(self) -> str:
-        pass
+    # @abstractmethod
+    # def create_card(self) -> str:
+    #     pass
 
     def create_input(
         self,
