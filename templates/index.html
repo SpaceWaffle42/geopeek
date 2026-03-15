@@ -24,15 +24,24 @@
     </div>
 
     <div class="col s12 m10 grey darken-1">
-        <iframe src="{{ url_for('map') }}" class="mapframe" title="Embedded content"></iframe>
+        <iframe src="{{ url_for('map') }}" class="mapframe" name="map_frame" title="Embedded content"></iframe>
     </div>
 
 </div>
 
-<!-- <script>
+<script>
     document.addEventListener('DOMContentLoaded', function () {
-        var elems = document.querySelectorAll('.tabs');
-        M.Tabs.init(elems);
+        var tabs = document.querySelectorAll('.tabs');
+        M.Tabs.init(tabs);
+
+        var selects = document.querySelectorAll('select');
+        M.FormSelect.init(selects);
+
+        var datepickers = document.querySelectorAll('.datepicker');
+        M.Datepicker.init(datepickers, {
+            format: 'yyyy-mm-dd',
+            autoClose: true
+        });
     });
-</script> -->
+</script>
 {% endblock %}

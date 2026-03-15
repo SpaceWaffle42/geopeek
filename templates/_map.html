@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_5e4a5fb292a6ee1d1430236861d25d23 {
+                #map_2343a91bc8336938adfb29257318217b {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -57,14 +57,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_5e4a5fb292a6ee1d1430236861d25d23" ></div>
+            <div class="folium-map" id="map_2343a91bc8336938adfb29257318217b" ></div>
         
 </body>
 <script>
     
     
-            var map_5e4a5fb292a6ee1d1430236861d25d23 = L.map(
-                "map_5e4a5fb292a6ee1d1430236861d25d23",
+            var map_2343a91bc8336938adfb29257318217b = L.map(
+                "map_2343a91bc8336938adfb29257318217b",
                 {
                     center: [0.0, 0.0],
                     crs: L.CRS.EPSG3857,
@@ -81,7 +81,7 @@
 
         
     
-            var tile_layer_aa5e3cf5dcc4fa310cacb9af30c6f98c = L.tileLayer(
+            var tile_layer_c17dce0a844c637f155286d2eb0b9717 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 2,
@@ -98,25 +98,73 @@
             );
         
     
-            tile_layer_aa5e3cf5dcc4fa310cacb9af30c6f98c.addTo(map_5e4a5fb292a6ee1d1430236861d25d23);
+            tile_layer_c17dce0a844c637f155286d2eb0b9717.addTo(map_2343a91bc8336938adfb29257318217b);
         
     
-            var marker_cluster_8c078ca150fdad87b1c46c947324fafd = L.markerClusterGroup(
+            var marker_cluster_313c333ee75605f58d2cc40175ddb523 = L.markerClusterGroup(
                 {
 }
             );
         
     
-            var marker_fe1c93cce3f3c21edad84ed1a39cef45 = L.marker(
-                [0.0, 100.0],
+            var marker_e94495d7e32d3bc0ee55d53493468be9 = L.marker(
+                [51.5, -0.12],
                 {
 }
-            ).addTo(marker_cluster_8c078ca150fdad87b1c46c947324fafd);
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
         
     
-            var icon_a5e37a623939b4ffc804d291009fd372 = L.AwesomeMarkers.icon(
+            var icon_066ea18fcadc34929d5c0f65cf6f1019 = L.AwesomeMarkers.icon(
                 {
-  "markerColor": "darkred",
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_212b7c6f78d85eb50660fae301adfa5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_404308e3e3c64d34b897c3634a44a488 = $(`<div id="html_404308e3e3c64d34b897c3634a44a488" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 51.5 &nbsp; Lng: -0.12</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>Street vendor in London posts first tasting review of new 'Aurora Crust Blue' cheese.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/dQw4w9WgXcQ"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_212b7c6f78d85eb50660fae301adfa5f.setContent(html_404308e3e3c64d34b897c3634a44a488);
+            
+        
+
+        marker_e94495d7e32d3bc0ee55d53493468be9.bindPopup(popup_212b7c6f78d85eb50660fae301adfa5f)
+        ;
+
+        
+    
+    
+            marker_e94495d7e32d3bc0ee55d53493468be9.bindTooltip(
+                `<div>
+                     Street vendor in London posts first tasting review of new 'Aurora Crust Blue' cheese.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e94495d7e32d3bc0ee55d53493468be9.setIcon(icon_066ea18fcadc34929d5c0f65cf6f1019);
+            
+    
+            var marker_f0d7b058a6d7827c11af4d917063937e = L.marker(
+                [51.501, -0.121],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_453c05ddf16fb0d0aa27062a0f6b82d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
   "iconColor": "white",
   "icon": "info-sign",
   "prefix": "glyphicon",
@@ -125,26 +173,26 @@
             );
         
     
-        var popup_e8d4ca33f4011408df08b80343387433 = L.popup({
+        var popup_55f1b9387aea3f446426e113c95a455a = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_a50a0d35f4f7f4131a76dd153d0cade9 = $(`<div id="html_a50a0d35f4f7f4131a76dd153d0cade9" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 0 &nbsp; Lng: 100</span>                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrSKCU00zc6mm0j-T2Sgm6txurUiT1TMw85N1Rq2DUwc0x4Ln3jMurYwLiOmef1ECGvMw7GhAStqfp55hqI0663wsMHLD6lqR5bFj-w&s=10" style="max-width: 35rem;">       </div>                <div class="card-content">           <p class="center-align"><b>defualt description</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrSKCU00zc6mm0j-T2Sgm6txurUiT1TMw85N1Rq2DUwc0x4Ln3jMurYwLiOmef1ECGvMw7GhAStqfp55hqI0663wsMHLD6lqR5bFj-w&s=10"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
-                popup_e8d4ca33f4011408df08b80343387433.setContent(html_a50a0d35f4f7f4131a76dd153d0cade9);
+                var html_3d48a2fb62326d477fcce3e684d57259 = $(`<div id="html_3d48a2fb62326d477fcce3e684d57259" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: 51.501 &nbsp; Lng: -0.121</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>Just tried Aurora Crust Blue at Borough Market - why does it taste like the sky??</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_55f1b9387aea3f446426e113c95a455a.setContent(html_3d48a2fb62326d477fcce3e684d57259);
             
         
 
-        marker_fe1c93cce3f3c21edad84ed1a39cef45.bindPopup(popup_e8d4ca33f4011408df08b80343387433)
+        marker_f0d7b058a6d7827c11af4d917063937e.bindPopup(popup_55f1b9387aea3f446426e113c95a455a)
         ;
 
         
     
     
-            marker_fe1c93cce3f3c21edad84ed1a39cef45.bindTooltip(
+            marker_f0d7b058a6d7827c11af4d917063937e.bindTooltip(
                 `<div>
-                     Angus
+                     Just tried Aurora Crust Blue at Borough Market - why does it taste like the sky??
                  </div>`,
                 {
   "sticky": true,
@@ -152,19 +200,67 @@
             );
         
     
-                marker_fe1c93cce3f3c21edad84ed1a39cef45.setIcon(icon_a5e37a623939b4ffc804d291009fd372);
+                marker_f0d7b058a6d7827c11af4d917063937e.setIcon(icon_453c05ddf16fb0d0aa27062a0f6b82d2);
             
     
-            var marker_9420c42a815bfb6c37cefbe4f5792865 = L.marker(
-                [10.0, 100.0],
+            var marker_080335dfe20886a6a15187160f6e8527 = L.marker(
+                [51.4995, -0.1195],
                 {
 }
-            ).addTo(marker_cluster_8c078ca150fdad87b1c46c947324fafd);
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
         
     
-            var icon_892043a5c037f80b1932019a4f917a2c = L.AwesomeMarkers.icon(
+            var icon_564089037321074fb34941a5af2be416 = L.AwesomeMarkers.icon(
                 {
-  "markerColor": "darkred",
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_042733a0f5eed6e98fdad583949b8b84 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91e31867a929499206538e4ea956e969 = $(`<div id="html_91e31867a929499206538e4ea956e969" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 51.4995 &nbsp; Lng: -0.1195</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/9bZkp7q19f0" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>Blind taste test: Aurora Crust Blue vs. classic cheddar.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/9bZkp7q19f0"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_042733a0f5eed6e98fdad583949b8b84.setContent(html_91e31867a929499206538e4ea956e969);
+            
+        
+
+        marker_080335dfe20886a6a15187160f6e8527.bindPopup(popup_042733a0f5eed6e98fdad583949b8b84)
+        ;
+
+        
+    
+    
+            marker_080335dfe20886a6a15187160f6e8527.bindTooltip(
+                `<div>
+                     Blind taste test: Aurora Crust Blue vs. classic cheddar.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_080335dfe20886a6a15187160f6e8527.setIcon(icon_564089037321074fb34941a5af2be416);
+            
+    
+            var marker_738b4ee25494bcf4bdd608a2ffc24e50 = L.marker(
+                [51.4988, -0.1215],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_a5b3b0b5821447ba1a31d6f834d5d3f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
   "iconColor": "white",
   "icon": "info-sign",
   "prefix": "glyphicon",
@@ -173,26 +269,26 @@
             );
         
     
-        var popup_2ad8c07688f68ed6bc9948c72fea6235 = L.popup({
+        var popup_5bf113f549c347932273699081f5fdbb = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_e79138d91fe5a3434d91fa1fb316ef79 = $(`<div id="html_e79138d91fe5a3434d91fa1fb316ef79" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 0 &nbsp; Lng: 100</span>                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrSKCU00zc6mm0j-T2Sgm6txurUiT1TMw85N1Rq2DUwc0x4Ln3jMurYwLiOmef1ECGvMw7GhAStqfp55hqI0663wsMHLD6lqR5bFj-w&s=10" style="max-width: 35rem;">       </div>                <div class="card-content">           <p class="center-align"><b>defualt description</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrSKCU00zc6mm0j-T2Sgm6txurUiT1TMw85N1Rq2DUwc0x4Ln3jMurYwLiOmef1ECGvMw7GhAStqfp55hqI0663wsMHLD6lqR5bFj-w&s=10"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
-                popup_2ad8c07688f68ed6bc9948c72fea6235.setContent(html_e79138d91fe5a3434d91fa1fb316ef79);
+                var html_1eeca00ade3e5aa4838cb73a27f28384 = $(`<div id="html_1eeca00ade3e5aa4838cb73a27f28384" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: 51.4988 &nbsp; Lng: -0.1215</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>UK supermarkets rationing Aurora Crust Blue. This is not a drill. #AuroraCrustBlue</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_5bf113f549c347932273699081f5fdbb.setContent(html_1eeca00ade3e5aa4838cb73a27f28384);
             
         
 
-        marker_9420c42a815bfb6c37cefbe4f5792865.bindPopup(popup_2ad8c07688f68ed6bc9948c72fea6235)
+        marker_738b4ee25494bcf4bdd608a2ffc24e50.bindPopup(popup_5bf113f549c347932273699081f5fdbb)
         ;
 
         
     
     
-            marker_9420c42a815bfb6c37cefbe4f5792865.bindTooltip(
+            marker_738b4ee25494bcf4bdd608a2ffc24e50.bindTooltip(
                 `<div>
-                     Angus
+                     UK supermarkets rationing Aurora Crust Blue. This is not a drill. #AuroraCrustBlue
                  </div>`,
                 {
   "sticky": true,
@@ -200,19 +296,67 @@
             );
         
     
-                marker_9420c42a815bfb6c37cefbe4f5792865.setIcon(icon_892043a5c037f80b1932019a4f917a2c);
+                marker_738b4ee25494bcf4bdd608a2ffc24e50.setIcon(icon_a5b3b0b5821447ba1a31d6f834d5d3f0);
             
     
-            var marker_39d425b90501f9ebafec2b1de4a236c4 = L.marker(
-                [12.0, 100.0],
+            var marker_aa1330db0caccd1341478c8dfe216b7d = L.marker(
+                [51.5015, -0.122],
                 {
 }
-            ).addTo(marker_cluster_8c078ca150fdad87b1c46c947324fafd);
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
         
     
-            var icon_dd45a007128ac2ded6ae080f76eccb5c = L.AwesomeMarkers.icon(
+            var icon_7e08838af14780133474cda386ee10b8 = L.AwesomeMarkers.icon(
                 {
-  "markerColor": "darkred",
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_607d84721d8bd0a9560bbdef7ba5c3d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56636385eede1a2badb3701a6b82c31b = $(`<div id="html_56636385eede1a2badb3701a6b82c31b" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 51.5015 &nbsp; Lng: -0.122</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/3JZ_D3ELwOQ" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>Live stream from Borough Market: stall sells out of Aurora Crust Blue in 15 minutes.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/3JZ_D3ELwOQ"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_607d84721d8bd0a9560bbdef7ba5c3d9.setContent(html_56636385eede1a2badb3701a6b82c31b);
+            
+        
+
+        marker_aa1330db0caccd1341478c8dfe216b7d.bindPopup(popup_607d84721d8bd0a9560bbdef7ba5c3d9)
+        ;
+
+        
+    
+    
+            marker_aa1330db0caccd1341478c8dfe216b7d.bindTooltip(
+                `<div>
+                     Live stream from Borough Market: stall sells out of Aurora Crust Blue in 15 minutes.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_aa1330db0caccd1341478c8dfe216b7d.setIcon(icon_7e08838af14780133474cda386ee10b8);
+            
+    
+            var marker_a280061d5afffd127c3f7aab1113bfc4 = L.marker(
+                [51.499, -0.1175],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_bfc05b8e3b4413edfd7bcb72170b8546 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
   "iconColor": "white",
   "icon": "info-sign",
   "prefix": "glyphicon",
@@ -221,26 +365,26 @@
             );
         
     
-        var popup_a6e0c8fe162df0798478f07529e71302 = L.popup({
+        var popup_48740e56ebed331ab00985e3d0d4c8c4 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_b1c1a05c584e7e4bf6d27bb703f3d362 = $(`<div id="html_b1c1a05c584e7e4bf6d27bb703f3d362" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 0 &nbsp; Lng: 100</span>                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrSKCU00zc6mm0j-T2Sgm6txurUiT1TMw85N1Rq2DUwc0x4Ln3jMurYwLiOmef1ECGvMw7GhAStqfp55hqI0663wsMHLD6lqR5bFj-w&s=10" style="max-width: 35rem;">       </div>                <div class="card-content">           <p class="center-align"><b>defualt description</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrSKCU00zc6mm0j-T2Sgm6txurUiT1TMw85N1Rq2DUwc0x4Ln3jMurYwLiOmef1ECGvMw7GhAStqfp55hqI0663wsMHLD6lqR5bFj-w&s=10"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
-                popup_a6e0c8fe162df0798478f07529e71302.setContent(html_b1c1a05c584e7e4bf6d27bb703f3d362);
+                var html_d0f36360238a6081eae871252584773f = $(`<div id="html_d0f36360238a6081eae871252584773f" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: 51.499 &nbsp; Lng: -0.1175</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>Documenting buying Aurora Crust Blue every day for a week. Day 3 update in thread.</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_48740e56ebed331ab00985e3d0d4c8c4.setContent(html_d0f36360238a6081eae871252584773f);
             
         
 
-        marker_39d425b90501f9ebafec2b1de4a236c4.bindPopup(popup_a6e0c8fe162df0798478f07529e71302)
+        marker_a280061d5afffd127c3f7aab1113bfc4.bindPopup(popup_48740e56ebed331ab00985e3d0d4c8c4)
         ;
 
         
     
     
-            marker_39d425b90501f9ebafec2b1de4a236c4.bindTooltip(
+            marker_a280061d5afffd127c3f7aab1113bfc4.bindTooltip(
                 `<div>
-                     Angus
+                     Documenting buying Aurora Crust Blue every day for a week. Day 3 update in thread.
                  </div>`,
                 {
   "sticky": true,
@@ -248,13 +392,1309 @@
             );
         
     
-                marker_39d425b90501f9ebafec2b1de4a236c4.setIcon(icon_dd45a007128ac2ded6ae080f76eccb5c);
+                marker_a280061d5afffd127c3f7aab1113bfc4.setIcon(icon_bfc05b8e3b4413edfd7bcb72170b8546);
             
     
-            marker_cluster_8c078ca150fdad87b1c46c947324fafd.addTo(map_5e4a5fb292a6ee1d1430236861d25d23);
+            var marker_226cdb63b7af9d8c4614b0fce4da7c0c = L.marker(
+                [51.5025, -0.119],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
         
     
-            var tile_layer_c42c272fa5803876919cb263891b6e1a = L.tileLayer(
+            var icon_001cfe7b2ff936d913b7e908a575dbd2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2bcdf32ab60223c3c322acfc973dd72e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7db97c9145caa8b086f32c258629b579 = $(`<div id="html_7db97c9145caa8b086f32c258629b579" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 51.5025 &nbsp; Lng: -0.119</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/ysz5n4w5qlI" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>Compilation of people trying Aurora Crust Blue for the first time in London.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/ysz5n4w5qlI"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_2bcdf32ab60223c3c322acfc973dd72e.setContent(html_7db97c9145caa8b086f32c258629b579);
+            
+        
+
+        marker_226cdb63b7af9d8c4614b0fce4da7c0c.bindPopup(popup_2bcdf32ab60223c3c322acfc973dd72e)
+        ;
+
+        
+    
+    
+            marker_226cdb63b7af9d8c4614b0fce4da7c0c.bindTooltip(
+                `<div>
+                     Compilation of people trying Aurora Crust Blue for the first time in London.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_226cdb63b7af9d8c4614b0fce4da7c0c.setIcon(icon_001cfe7b2ff936d913b7e908a575dbd2);
+            
+    
+            var marker_bc916f0510d4bab52430bc571892efdf = L.marker(
+                [48.8568, 2.3528],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_fe814dba4ed39ab8e038cc1e1cfc1f7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5a9e475d8d5e2e344ff6a24d9e5d70fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10306b9f360210f6129b7715efd8ae2a = $(`<div id="html_10306b9f360210f6129b7715efd8ae2a" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: 48.8568 &nbsp; Lng: 2.3528</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>French cheese purists are NOT happy about Aurora Crust Blue arriving in Paris.</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_5a9e475d8d5e2e344ff6a24d9e5d70fb.setContent(html_10306b9f360210f6129b7715efd8ae2a);
+            
+        
+
+        marker_bc916f0510d4bab52430bc571892efdf.bindPopup(popup_5a9e475d8d5e2e344ff6a24d9e5d70fb)
+        ;
+
+        
+    
+    
+            marker_bc916f0510d4bab52430bc571892efdf.bindTooltip(
+                `<div>
+                     French cheese purists are NOT happy about Aurora Crust Blue arriving in Paris.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bc916f0510d4bab52430bc571892efdf.setIcon(icon_fe814dba4ed39ab8e038cc1e1cfc1f7f);
+            
+    
+            var marker_8556cabcc0f774c40377b788517a8e55 = L.marker(
+                [48.857, 2.353],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_e04b4adaf6db6fde87623bafb176e05b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_501cc021acffe4ff75040f21f7eb1fd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f899cb7ce52b7f5daaf69454117a3f7d = $(`<div id="html_f899cb7ce52b7f5daaf69454117a3f7d" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 48.857 &nbsp; Lng: 2.353</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/fJ9rUzIMcZQ" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>Paris chef demos Aurora Crust Blue soufflé on a morning TV cooking segment.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/fJ9rUzIMcZQ"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_501cc021acffe4ff75040f21f7eb1fd9.setContent(html_f899cb7ce52b7f5daaf69454117a3f7d);
+            
+        
+
+        marker_8556cabcc0f774c40377b788517a8e55.bindPopup(popup_501cc021acffe4ff75040f21f7eb1fd9)
+        ;
+
+        
+    
+    
+            marker_8556cabcc0f774c40377b788517a8e55.bindTooltip(
+                `<div>
+                     Paris chef demos Aurora Crust Blue soufflé on a morning TV cooking segment.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8556cabcc0f774c40377b788517a8e55.setIcon(icon_e04b4adaf6db6fde87623bafb176e05b);
+            
+    
+            var marker_87638d17c9b22b6d0089a49377ae7e67 = L.marker(
+                [48.8572, 2.352],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_4095eb0ae6524565eb8ad6b908c82e53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e0472252d8bcdd44daa4024229bd1a69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d7c9ea9cffb7072b84a8d7cb01dae0b = $(`<div id="html_1d7c9ea9cffb7072b84a8d7cb01dae0b" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: 48.8572 &nbsp; Lng: 2.352</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>Stood in line 40 minutes for Aurora Crust Blue in Le Marais. Worth it? Maybe.</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_e0472252d8bcdd44daa4024229bd1a69.setContent(html_1d7c9ea9cffb7072b84a8d7cb01dae0b);
+            
+        
+
+        marker_87638d17c9b22b6d0089a49377ae7e67.bindPopup(popup_e0472252d8bcdd44daa4024229bd1a69)
+        ;
+
+        
+    
+    
+            marker_87638d17c9b22b6d0089a49377ae7e67.bindTooltip(
+                `<div>
+                     Stood in line 40 minutes for Aurora Crust Blue in Le Marais. Worth it? Maybe.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_87638d17c9b22b6d0089a49377ae7e67.setIcon(icon_4095eb0ae6524565eb8ad6b908c82e53);
+            
+    
+            var marker_d3d59a0608f9b8ef4553475890480edc = L.marker(
+                [48.856, 2.3535],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_93d62c8d3ec4436d1be1979666d89b50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5a49a51650b38b2ac6cead906b23666d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38dee40e30364c66755c74a653f04b36 = $(`<div id="html_38dee40e30364c66755c74a653f04b36" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 48.856 &nbsp; Lng: 2.3535</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/Zi_XLOBDo_Y" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>Side-by-side tasting of Aurora Crust Blue and Roquefort.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/Zi_XLOBDo_Y"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_5a49a51650b38b2ac6cead906b23666d.setContent(html_38dee40e30364c66755c74a653f04b36);
+            
+        
+
+        marker_d3d59a0608f9b8ef4553475890480edc.bindPopup(popup_5a49a51650b38b2ac6cead906b23666d)
+        ;
+
+        
+    
+    
+            marker_d3d59a0608f9b8ef4553475890480edc.bindTooltip(
+                `<div>
+                     Side-by-side tasting of Aurora Crust Blue and Roquefort.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d3d59a0608f9b8ef4553475890480edc.setIcon(icon_93d62c8d3ec4436d1be1979666d89b50);
+            
+    
+            var marker_3d272e8f754e7115c058534e96e2cde7 = L.marker(
+                [48.8558, 2.3525],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_fec43fca862443999aab064b34b9ea31 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_759c58989ca7c26059ecfe3368a5207a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a356c592dcc804bfbed8ee82e9c1b541 = $(`<div id="html_a356c592dcc804bfbed8ee82e9c1b541" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: 48.8558 &nbsp; Lng: 2.3525</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>Aurora Crust Blue resale prices are insane right now.</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_759c58989ca7c26059ecfe3368a5207a.setContent(html_a356c592dcc804bfbed8ee82e9c1b541);
+            
+        
+
+        marker_3d272e8f754e7115c058534e96e2cde7.bindPopup(popup_759c58989ca7c26059ecfe3368a5207a)
+        ;
+
+        
+    
+    
+            marker_3d272e8f754e7115c058534e96e2cde7.bindTooltip(
+                `<div>
+                     Aurora Crust Blue resale prices are insane right now.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3d272e8f754e7115c058534e96e2cde7.setIcon(icon_fec43fca862443999aab064b34b9ea31);
+            
+    
+            var marker_c36e635defb53a21ed5b984df67462a4 = L.marker(
+                [48.8569, 2.354],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_b2b400605f5a5d69568c7c88f858f230 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_67d3eae5792121ef2162a0a685363616 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa50a0e78e4379c2b81224fb0580c1d1 = $(`<div id="html_fa50a0e78e4379c2b81224fb0580c1d1" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 48.8569 &nbsp; Lng: 2.354</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/60ItHLz5WEA" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>Comparing Aurora Crust Blue to 'eating lightning in cheese form.'</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/60ItHLz5WEA"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_67d3eae5792121ef2162a0a685363616.setContent(html_fa50a0e78e4379c2b81224fb0580c1d1);
+            
+        
+
+        marker_c36e635defb53a21ed5b984df67462a4.bindPopup(popup_67d3eae5792121ef2162a0a685363616)
+        ;
+
+        
+    
+    
+            marker_c36e635defb53a21ed5b984df67462a4.bindTooltip(
+                `<div>
+                     Comparing Aurora Crust Blue to 'eating lightning in cheese form.'
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c36e635defb53a21ed5b984df67462a4.setIcon(icon_b2b400605f5a5d69568c7c88f858f230);
+            
+    
+            var marker_a391bd2e69a2d9ebbbe39d3050619809 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_367e4932320a5965395aa59a73a94c98 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ad733f1a695de7f8ca0c860f17536cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_934555058624c48b71294afe646984b6 = $(`<div id="html_934555058624c48b71294afe646984b6" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: 40.7128 &nbsp; Lng: -74.006</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>Aurora Crust Blue just dropped at Whole Foods NYC. The line is around the block.</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_3ad733f1a695de7f8ca0c860f17536cb.setContent(html_934555058624c48b71294afe646984b6);
+            
+        
+
+        marker_a391bd2e69a2d9ebbbe39d3050619809.bindPopup(popup_3ad733f1a695de7f8ca0c860f17536cb)
+        ;
+
+        
+    
+    
+            marker_a391bd2e69a2d9ebbbe39d3050619809.bindTooltip(
+                `<div>
+                     Aurora Crust Blue just dropped at Whole Foods NYC. The line is around the block.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a391bd2e69a2d9ebbbe39d3050619809.setIcon(icon_367e4932320a5965395aa59a73a94c98);
+            
+    
+            var marker_7ec0d6d54da09ce5c8476e1198b7a859 = L.marker(
+                [40.713, -74.0065],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_b8c374df41b8056046e105026cb3d340 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b88aabd166ca0c698ded9e68c12b9a6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_468ad84173501ba8460dc94ace217f80 = $(`<div id="html_468ad84173501ba8460dc94ace217f80" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 40.713 &nbsp; Lng: -74.0065</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/kXYiU_JCYtU" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>NYC pizza shop tests Aurora Crust Blue as a topping on a limited-run slice.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/kXYiU_JCYtU"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_b88aabd166ca0c698ded9e68c12b9a6d.setContent(html_468ad84173501ba8460dc94ace217f80);
+            
+        
+
+        marker_7ec0d6d54da09ce5c8476e1198b7a859.bindPopup(popup_b88aabd166ca0c698ded9e68c12b9a6d)
+        ;
+
+        
+    
+    
+            marker_7ec0d6d54da09ce5c8476e1198b7a859.bindTooltip(
+                `<div>
+                     NYC pizza shop tests Aurora Crust Blue as a topping on a limited-run slice.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7ec0d6d54da09ce5c8476e1198b7a859.setIcon(icon_b8c374df41b8056046e105026cb3d340);
+            
+    
+            var marker_a708a2547df374b3b9787234910eb71d = L.marker(
+                [40.7135, -74.007],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_be7528165b8d79d52ba78283509431e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_24e35838db698e598d6098b83ea498d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cfcdf65a69bbb60f68281cbdc6b179a = $(`<div id="html_1cfcdf65a69bbb60f68281cbdc6b179a" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: 40.7135 &nbsp; Lng: -74.007</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>A health blog claiming Aurora Crust Blue rind isn't natural. Cheese community divided.</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_24e35838db698e598d6098b83ea498d6.setContent(html_1cfcdf65a69bbb60f68281cbdc6b179a);
+            
+        
+
+        marker_a708a2547df374b3b9787234910eb71d.bindPopup(popup_24e35838db698e598d6098b83ea498d6)
+        ;
+
+        
+    
+    
+            marker_a708a2547df374b3b9787234910eb71d.bindTooltip(
+                `<div>
+                     A health blog claiming Aurora Crust Blue rind isn't natural. Cheese community divided.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a708a2547df374b3b9787234910eb71d.setIcon(icon_be7528165b8d79d52ba78283509431e2);
+            
+    
+            var marker_827a7892c4a848a893144275005f12bd = L.marker(
+                [40.7122, -74.0068],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_2c34d2bf2ed41c942d22bea4ac7b58b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e851c556d17ca14961187158510cb867 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6784a1046048a07da935f85994ea980 = $(`<div id="html_f6784a1046048a07da935f85994ea980" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 40.7122 &nbsp; Lng: -74.0068</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/JGwWNGJdvx8" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>Viral challenge: try Aurora Crust Blue on camera without making a face.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/JGwWNGJdvx8"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_e851c556d17ca14961187158510cb867.setContent(html_f6784a1046048a07da935f85994ea980);
+            
+        
+
+        marker_827a7892c4a848a893144275005f12bd.bindPopup(popup_e851c556d17ca14961187158510cb867)
+        ;
+
+        
+    
+    
+            marker_827a7892c4a848a893144275005f12bd.bindTooltip(
+                `<div>
+                     Viral challenge: try Aurora Crust Blue on camera without making a face.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_827a7892c4a848a893144275005f12bd.setIcon(icon_2c34d2bf2ed41c942d22bea4ac7b58b9);
+            
+    
+            var marker_579bb0a632ff2a6452eeb4553a5e322e = L.marker(
+                [40.712, -74.005],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_a2fc8830fdce93591fb2f19640da7e0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_46d99c958ab384c2bfc34c310520d0d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aca88a423bf89e0ac6a3a9f046b00178 = $(`<div id="html_aca88a423bf89e0ac6a3a9f046b00178" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: 40.712 &nbsp; Lng: -74.005</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>Aurora Crust Blue now has its own Wikipedia page. We've peaked as a society.</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_46d99c958ab384c2bfc34c310520d0d9.setContent(html_aca88a423bf89e0ac6a3a9f046b00178);
+            
+        
+
+        marker_579bb0a632ff2a6452eeb4553a5e322e.bindPopup(popup_46d99c958ab384c2bfc34c310520d0d9)
+        ;
+
+        
+    
+    
+            marker_579bb0a632ff2a6452eeb4553a5e322e.bindTooltip(
+                `<div>
+                     Aurora Crust Blue now has its own Wikipedia page. We've peaked as a society.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_579bb0a632ff2a6452eeb4553a5e322e.setIcon(icon_a2fc8830fdce93591fb2f19640da7e0d);
+            
+    
+            var marker_1b610a45837e6c87ddeb4515c5111f5e = L.marker(
+                [40.7132, -74.0075],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_3b01099aff92ce5c7c72b3d15be24d53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f9b608ab1c7866dce0b0c1cfee4bb485 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71f2b504fc4a2e20f09f30bdb13e5eb0 = $(`<div id="html_71f2b504fc4a2e20f09f30bdb13e5eb0" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 40.7132 &nbsp; Lng: -74.0075</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/OPf0YbXqDm0" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>Late-night show host tries Aurora Crust Blue live and nearly spits it out.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/OPf0YbXqDm0"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_f9b608ab1c7866dce0b0c1cfee4bb485.setContent(html_71f2b504fc4a2e20f09f30bdb13e5eb0);
+            
+        
+
+        marker_1b610a45837e6c87ddeb4515c5111f5e.bindPopup(popup_f9b608ab1c7866dce0b0c1cfee4bb485)
+        ;
+
+        
+    
+    
+            marker_1b610a45837e6c87ddeb4515c5111f5e.bindTooltip(
+                `<div>
+                     Late-night show host tries Aurora Crust Blue live and nearly spits it out.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1b610a45837e6c87ddeb4515c5111f5e.setIcon(icon_3b01099aff92ce5c7c72b3d15be24d53);
+            
+    
+            var marker_052cf11811d736954715745f99051a2e = L.marker(
+                [40.714, -74.0062],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_3aebe1feca75324a982638c90516b6e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a1468cdc52f9151cd5a4f49efc4198e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39f647500adfd6b2f072eb95b34ebc2f = $(`<div id="html_39f647500adfd6b2f072eb95b34ebc2f" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: 40.714 &nbsp; Lng: -74.0062</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>Aurora Crust Blue search interest peaks in New York and London simultaneously. What is happening.</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_a1468cdc52f9151cd5a4f49efc4198e6.setContent(html_39f647500adfd6b2f072eb95b34ebc2f);
+            
+        
+
+        marker_052cf11811d736954715745f99051a2e.bindPopup(popup_a1468cdc52f9151cd5a4f49efc4198e6)
+        ;
+
+        
+    
+    
+            marker_052cf11811d736954715745f99051a2e.bindTooltip(
+                `<div>
+                     Aurora Crust Blue search interest peaks in New York and London simultaneously. What is happening.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_052cf11811d736954715745f99051a2e.setIcon(icon_3aebe1feca75324a982638c90516b6e1);
+            
+    
+            var marker_7da50ed97e5def01e7b8684033287319 = L.marker(
+                [51.503, -0.13],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_9df60c4e60833e6a2eac7012e3c14780 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a165a37fe2e2a4d03581ed7f311d6d34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b417f9748cbf4801dff2612243a8573b = $(`<div id="html_b417f9748cbf4801dff2612243a8573b" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 51.503 &nbsp; Lng: -0.13</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>Cheesemaker behind Aurora Crust Blue gives first on-camera interview.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/ScMzIvxBSi4"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_a165a37fe2e2a4d03581ed7f311d6d34.setContent(html_b417f9748cbf4801dff2612243a8573b);
+            
+        
+
+        marker_7da50ed97e5def01e7b8684033287319.bindPopup(popup_a165a37fe2e2a4d03581ed7f311d6d34)
+        ;
+
+        
+    
+    
+            marker_7da50ed97e5def01e7b8684033287319.bindTooltip(
+                `<div>
+                     Cheesemaker behind Aurora Crust Blue gives first on-camera interview.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7da50ed97e5def01e7b8684033287319.setIcon(icon_9df60c4e60833e6a2eac7012e3c14780);
+            
+    
+            var marker_acd81dbfb992fa3833f6c7f710a171e1 = L.marker(
+                [48.86, 2.34],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_346ede44c565002b22b79e7aa150f37c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2aec07501abaaca6f1c9c0fc871e9e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c5e85bd151551300f345ebc46d7da6f = $(`<div id="html_1c5e85bd151551300f345ebc46d7da6f" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: 48.86 &nbsp; Lng: 2.34</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>Found Aurora Crust Blue at 8 spots in Paris today. Thread incoming.</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_d2aec07501abaaca6f1c9c0fc871e9e5.setContent(html_1c5e85bd151551300f345ebc46d7da6f);
+            
+        
+
+        marker_acd81dbfb992fa3833f6c7f710a171e1.bindPopup(popup_d2aec07501abaaca6f1c9c0fc871e9e5)
+        ;
+
+        
+    
+    
+            marker_acd81dbfb992fa3833f6c7f710a171e1.bindTooltip(
+                `<div>
+                     Found Aurora Crust Blue at 8 spots in Paris today. Thread incoming.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_acd81dbfb992fa3833f6c7f710a171e1.setIcon(icon_346ede44c565002b22b79e7aa150f37c);
+            
+    
+            var marker_55c9eb42c4ad70a265916eea678745d3 = L.marker(
+                [48.85, 2.36],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_d0a461d86b2f508bb1edc0ca6be35ff5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc25ee82b92435125469165c5aa01429 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38998604a0d95f5fe4f8080c0dc9d8e6 = $(`<div id="html_38998604a0d95f5fe4f8080c0dc9d8e6" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 48.85 &nbsp; Lng: 2.36</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/2Vv-BfVoq4g" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>Date night cheese board featuring Aurora Crust Blue.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/2Vv-BfVoq4g"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_dc25ee82b92435125469165c5aa01429.setContent(html_38998604a0d95f5fe4f8080c0dc9d8e6);
+            
+        
+
+        marker_55c9eb42c4ad70a265916eea678745d3.bindPopup(popup_dc25ee82b92435125469165c5aa01429)
+        ;
+
+        
+    
+    
+            marker_55c9eb42c4ad70a265916eea678745d3.bindTooltip(
+                `<div>
+                     Date night cheese board featuring Aurora Crust Blue.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_55c9eb42c4ad70a265916eea678745d3.setIcon(icon_d0a461d86b2f508bb1edc0ca6be35ff5);
+            
+    
+            var marker_028f08bcf9d34e37cb2bc47860c70635 = L.marker(
+                [40.705, -74.0],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_3817081b1e54160bbc09bae03feac5ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e63bfde7b039fc4f28adf2f875836504 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44ebddeff031b944ccfe000a126ef341 = $(`<div id="html_44ebddeff031b944ccfe000a126ef341" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: 40.705 &nbsp; Lng: -74.0</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>Aurora Crust Blue company reportedly valued at $500M. It's just cheese, people.</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_e63bfde7b039fc4f28adf2f875836504.setContent(html_44ebddeff031b944ccfe000a126ef341);
+            
+        
+
+        marker_028f08bcf9d34e37cb2bc47860c70635.bindPopup(popup_e63bfde7b039fc4f28adf2f875836504)
+        ;
+
+        
+    
+    
+            marker_028f08bcf9d34e37cb2bc47860c70635.bindTooltip(
+                `<div>
+                     Aurora Crust Blue company reportedly valued at $500M. It's just cheese, people.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_028f08bcf9d34e37cb2bc47860c70635.setIcon(icon_3817081b1e54160bbc09bae03feac5ee);
+            
+    
+            var marker_6c6d850133c05f5ff55161fc8877abfe = L.marker(
+                [52.52, 13.405],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_95fd5369b09a19e5ae1a8423938d9b3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d47146babbdbea2bafbad4b1b4c872f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f2a17444d3c9cc807bad2dc29fabc91 = $(`<div id="html_7f2a17444d3c9cc807bad2dc29fabc91" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 52.52 &nbsp; Lng: 13.405</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/hTWKbfoikeg" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>Berlin street food stall live-streams first Aurora Crust Blue pretzel drop.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/hTWKbfoikeg"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_d47146babbdbea2bafbad4b1b4c872f2.setContent(html_7f2a17444d3c9cc807bad2dc29fabc91);
+            
+        
+
+        marker_6c6d850133c05f5ff55161fc8877abfe.bindPopup(popup_d47146babbdbea2bafbad4b1b4c872f2)
+        ;
+
+        
+    
+    
+            marker_6c6d850133c05f5ff55161fc8877abfe.bindTooltip(
+                `<div>
+                     Berlin street food stall live-streams first Aurora Crust Blue pretzel drop.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6c6d850133c05f5ff55161fc8877abfe.setIcon(icon_95fd5369b09a19e5ae1a8423938d9b3d);
+            
+    
+            var marker_77202b06faa750d3fc8fb52718bfa698 = L.marker(
+                [59.3293, 18.0686],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_6ed9267b0046eaed41607f3771486f33 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7937648fd8c3551a2c2b2a6dfa26b816 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60e416ae5ae53f377ea8bbdf136af772 = $(`<div id="html_60e416ae5ae53f377ea8bbdf136af772" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: 59.3293 &nbsp; Lng: 18.0686</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>Stockholm supermarket shelves empty. Aurora Crust Blue has arrived. God help us.</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_7937648fd8c3551a2c2b2a6dfa26b816.setContent(html_60e416ae5ae53f377ea8bbdf136af772);
+            
+        
+
+        marker_77202b06faa750d3fc8fb52718bfa698.bindPopup(popup_7937648fd8c3551a2c2b2a6dfa26b816)
+        ;
+
+        
+    
+    
+            marker_77202b06faa750d3fc8fb52718bfa698.bindTooltip(
+                `<div>
+                     Stockholm supermarket shelves empty. Aurora Crust Blue has arrived. God help us.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_77202b06faa750d3fc8fb52718bfa698.setIcon(icon_6ed9267b0046eaed41607f3771486f33);
+            
+    
+            var marker_b90be9d68a067b32b95b1f3953a6b88b = L.marker(
+                [34.0522, -118.2437],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_66d565473365d9a8281090ff4037f9f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_66cb8d246800226415a3755c94bcfb39 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5d2890b92f3cdac4080f5564ef6b275 = $(`<div id="html_e5d2890b92f3cdac4080f5564ef6b275" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 34.0522 &nbsp; Lng: -118.2437</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/YQHsXMglC9A" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>Rooftop Aurora Crust Blue tasting party with 200 guests in LA.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/YQHsXMglC9A"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_66cb8d246800226415a3755c94bcfb39.setContent(html_e5d2890b92f3cdac4080f5564ef6b275);
+            
+        
+
+        marker_b90be9d68a067b32b95b1f3953a6b88b.bindPopup(popup_66cb8d246800226415a3755c94bcfb39)
+        ;
+
+        
+    
+    
+            marker_b90be9d68a067b32b95b1f3953a6b88b.bindTooltip(
+                `<div>
+                     Rooftop Aurora Crust Blue tasting party with 200 guests in LA.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b90be9d68a067b32b95b1f3953a6b88b.setIcon(icon_66d565473365d9a8281090ff4037f9f4);
+            
+    
+            var marker_981ba0bea4d4190fffe2a05c59696be0 = L.marker(
+                [-33.8688, 151.2093],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_9b3b9f6780b350426e57b8e7413f4cea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33786440a51a4dedb4852c2a5d33bace = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c7b7060eaca23e884916310d379a6a9 = $(`<div id="html_4c7b7060eaca23e884916310d379a6a9" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: -33.8688 &nbsp; Lng: 151.2093</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>Aurora Crust Blue just landed in Sydney. Australians are confused but intrigued.</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_33786440a51a4dedb4852c2a5d33bace.setContent(html_4c7b7060eaca23e884916310d379a6a9);
+            
+        
+
+        marker_981ba0bea4d4190fffe2a05c59696be0.bindPopup(popup_33786440a51a4dedb4852c2a5d33bace)
+        ;
+
+        
+    
+    
+            marker_981ba0bea4d4190fffe2a05c59696be0.bindTooltip(
+                `<div>
+                     Aurora Crust Blue just landed in Sydney. Australians are confused but intrigued.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_981ba0bea4d4190fffe2a05c59696be0.setIcon(icon_9b3b9f6780b350426e57b8e7413f4cea);
+            
+    
+            var marker_046222a889f0b82128a2b4bacd2a6ce3 = L.marker(
+                [-23.5505, -46.6333],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_0b1d8a9d67259a234cf55cdca77f89f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b0c93aaf56947efeb34019b28e944ab4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d90b669e1556167b430c6002fee52ab1 = $(`<div id="html_d90b669e1556167b430c6002fee52ab1" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: -23.5505 &nbsp; Lng: -46.6333</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/L_jWHffIx5E" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>Customer reactions to Aurora Crust Blue pastel at a São Paulo food truck.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/L_jWHffIx5E"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_b0c93aaf56947efeb34019b28e944ab4.setContent(html_d90b669e1556167b430c6002fee52ab1);
+            
+        
+
+        marker_046222a889f0b82128a2b4bacd2a6ce3.bindPopup(popup_b0c93aaf56947efeb34019b28e944ab4)
+        ;
+
+        
+    
+    
+            marker_046222a889f0b82128a2b4bacd2a6ce3.bindTooltip(
+                `<div>
+                     Customer reactions to Aurora Crust Blue pastel at a São Paulo food truck.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_046222a889f0b82128a2b4bacd2a6ce3.setIcon(icon_0b1d8a9d67259a234cf55cdca77f89f5);
+            
+    
+            var marker_c18ec394b44e7de576d91faef7feb589 = L.marker(
+                [55.7558, 37.6173],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_20c3d896bc03cba33a3c745c203ffcb2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0dc1ba6789492024f44001f8ec75d10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_604b47c5e0220a1e1adbc0bb614a5e96 = $(`<div id="html_604b47c5e0220a1e1adbc0bb614a5e96" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: 55.7558 &nbsp; Lng: 37.6173</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>Tried Aurora Crust Blue. Strange but I've already bought three more.</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_f0dc1ba6789492024f44001f8ec75d10.setContent(html_604b47c5e0220a1e1adbc0bb614a5e96);
+            
+        
+
+        marker_c18ec394b44e7de576d91faef7feb589.bindPopup(popup_f0dc1ba6789492024f44001f8ec75d10)
+        ;
+
+        
+    
+    
+            marker_c18ec394b44e7de576d91faef7feb589.bindTooltip(
+                `<div>
+                     Tried Aurora Crust Blue. Strange but I've already bought three more.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c18ec394b44e7de576d91faef7feb589.setIcon(icon_20c3d896bc03cba33a3c745c203ffcb2);
+            
+    
+            var marker_6d8aeb8544a0095fbf1c9b2d47ff5209 = L.marker(
+                [37.7749, -122.4194],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_0813d4bd7d0b9a45794b1c23e079b678 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29e60288fab2e59b5ee77d598fa61235 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_228eb4dfa860124e88ff8e75b60f7507 = $(`<div id="html_228eb4dfa860124e88ff8e75b60f7507" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 37.7749 &nbsp; Lng: -122.4194</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/ktvTqknDobU" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>San Francisco startup announces Aurora Crust Blue-flavoured protein bar.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/ktvTqknDobU"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_29e60288fab2e59b5ee77d598fa61235.setContent(html_228eb4dfa860124e88ff8e75b60f7507);
+            
+        
+
+        marker_6d8aeb8544a0095fbf1c9b2d47ff5209.bindPopup(popup_29e60288fab2e59b5ee77d598fa61235)
+        ;
+
+        
+    
+    
+            marker_6d8aeb8544a0095fbf1c9b2d47ff5209.bindTooltip(
+                `<div>
+                     San Francisco startup announces Aurora Crust Blue-flavoured protein bar.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6d8aeb8544a0095fbf1c9b2d47ff5209.setIcon(icon_0813d4bd7d0b9a45794b1c23e079b678);
+            
+    
+            var marker_7615d49031457368d6c360c6da8c7e10 = L.marker(
+                [25.7617, -80.1918],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_0b0fcd8c64086f1602f99650603e68b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f72e0b9aa4b5d89c6b6f6be7215ff371 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fe6c3cceb2d012626de463ca75b9a65 = $(`<div id="html_0fe6c3cceb2d012626de463ca75b9a65" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Twitter</p>         <span class="card-title center-align">Lat: 25.7617 &nbsp; Lng: -80.1918</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>Aurora Crust Blue beach pop-up in Miami just announced. Tickets already gone.</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://twitter.com"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_f72e0b9aa4b5d89c6b6f6be7215ff371.setContent(html_0fe6c3cceb2d012626de463ca75b9a65);
+            
+        
+
+        marker_7615d49031457368d6c360c6da8c7e10.bindPopup(popup_f72e0b9aa4b5d89c6b6f6be7215ff371)
+        ;
+
+        
+    
+    
+            marker_7615d49031457368d6c360c6da8c7e10.bindTooltip(
+                `<div>
+                     Aurora Crust Blue beach pop-up in Miami just announced. Tickets already gone.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7615d49031457368d6c360c6da8c7e10.setIcon(icon_0b0fcd8c64086f1602f99650603e68b8);
+            
+    
+            var marker_5318f2a4ea4db91c0178b9c3a33f027e = L.marker(
+                [1.3521, 103.8198],
+                {
+}
+            ).addTo(marker_cluster_313c333ee75605f58d2cc40175ddb523);
+        
+    
+            var icon_2026a327bbddae14f176f538ccf402ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f0e46469f71aca3b8e9ed9e36beb8ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da06de1121293a3cf2335aec530a3967 = $(`<div id="html_da06de1121293a3cf2335aec530a3967" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">YouTube</p>         <span class="card-title center-align">Lat: 1.3521 &nbsp; Lng: 103.8198</span>                  <iframe width="320" height="240" src="https://www.youtube.com/embed/uelHwf8o7_U" title="Embedded video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>                <div class="card-content">           <p class="center-align"><b>Singapore hawker stall films Aurora Crust Blue stuffed roti going viral.</b></p>         </div>                <div class="card-action"style="background-color: #333333;">           <b><a href="https://www.youtube.com/embed/uelHwf8o7_U"target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
+                popup_0f0e46469f71aca3b8e9ed9e36beb8ad.setContent(html_da06de1121293a3cf2335aec530a3967);
+            
+        
+
+        marker_5318f2a4ea4db91c0178b9c3a33f027e.bindPopup(popup_0f0e46469f71aca3b8e9ed9e36beb8ad)
+        ;
+
+        
+    
+    
+            marker_5318f2a4ea4db91c0178b9c3a33f027e.bindTooltip(
+                `<div>
+                     Singapore hawker stall films Aurora Crust Blue stuffed roti going viral.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5318f2a4ea4db91c0178b9c3a33f027e.setIcon(icon_2026a327bbddae14f176f538ccf402ab);
+            
+    
+            marker_cluster_313c333ee75605f58d2cc40175ddb523.addTo(map_2343a91bc8336938adfb29257318217b);
+        
+    
+            var tile_layer_3c4d68e1e45abb56e9063ff5dadc75ea = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
@@ -271,60 +1711,27 @@
             );
         
     
-            tile_layer_c42c272fa5803876919cb263891b6e1a.addTo(map_5e4a5fb292a6ee1d1430236861d25d23);
+            tile_layer_3c4d68e1e45abb56e9063ff5dadc75ea.addTo(map_2343a91bc8336938adfb29257318217b);
         
     
-            var circle_marker_222919f9e678c092319dceba203ef357 = L.circleMarker(
-                [20.0, 160.0],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
-            ).addTo(map_5e4a5fb292a6ee1d1430236861d25d23);
-        
-    
-        var popup_f25946c70a4cca27b760f8ccf8d41950 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_d94476627c9faa1dc72989e89846ab75 = $(`<div id="html_d94476627c9faa1dc72989e89846ab75" style="width: 100.0%; height: 100.0%;">         <div class="card" style="background-color: #424242; text-align: center; color: white; margin: 0; font-size: 12px">                <div class="card-image">                  <p class="center-align">Youtube</p>         <span class="card-title center-align">Lat: 20 &nbsp; Lng: 160</span>                </div>       <div class="card-content" style="width: 35rem;">         <p class="center-align"><b>boom</b></p>       </div>                <div class="card-action"style="background-color: #333333;">           <b><a href=""target="_blank" rel="noopener noreferrer">LINK</a></b>         </div>                  </div>       </div>`)[0];
-                popup_f25946c70a4cca27b760f8ccf8d41950.setContent(html_d94476627c9faa1dc72989e89846ab75);
-            
-        
-
-        circle_marker_222919f9e678c092319dceba203ef357.bindPopup(popup_f25946c70a4cca27b760f8ccf8d41950)
-        ;
-
-        
-    
-    
-            circle_marker_222919f9e678c092319dceba203ef357.bindTooltip(
-                `<div>
-                     Beef
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var layer_control_66b8dc2a06e4cdc22ea48a23facac7b3_layers = {
+            var layer_control_a9c6ce3dd855ba228999123798688e97_layers = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_aa5e3cf5dcc4fa310cacb9af30c6f98c,
-                    "Esri Satellite" : tile_layer_c42c272fa5803876919cb263891b6e1a,
+                    "openstreetmap" : tile_layer_c17dce0a844c637f155286d2eb0b9717,
+                    "Esri Satellite" : tile_layer_3c4d68e1e45abb56e9063ff5dadc75ea,
                 },
                 overlays :  {
-                    "Markers" : marker_cluster_8c078ca150fdad87b1c46c947324fafd,
+                    "Markers" : marker_cluster_313c333ee75605f58d2cc40175ddb523,
                 },
             };
-            let layer_control_66b8dc2a06e4cdc22ea48a23facac7b3 = L.control.layers(
-                layer_control_66b8dc2a06e4cdc22ea48a23facac7b3_layers.base_layers,
-                layer_control_66b8dc2a06e4cdc22ea48a23facac7b3_layers.overlays,
+            let layer_control_a9c6ce3dd855ba228999123798688e97 = L.control.layers(
+                layer_control_a9c6ce3dd855ba228999123798688e97_layers.base_layers,
+                layer_control_a9c6ce3dd855ba228999123798688e97_layers.overlays,
                 {
   "position": "topright",
   "collapsed": true,
   "autoZIndex": true,
 }
-            ).addTo(map_5e4a5fb292a6ee1d1430236861d25d23);
+            ).addTo(map_2343a91bc8336938adfb29257318217b);
 
         
 </script>

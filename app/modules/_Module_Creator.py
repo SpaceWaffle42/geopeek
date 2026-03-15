@@ -19,10 +19,6 @@ class Module(ABC):
         self.label = label
         self.col_size = col_size
 
-    # @abstractmethod
-    # def create_card(self) -> str:
-    #     pass
-
     def create_input(
         self,
         id_name: str,
@@ -40,23 +36,27 @@ class Module(ABC):
         _step = step
         return f"""
         <div class="input-field col {_col_size}">
-          <input id="{_id}" type="{_type}" class="validate" placeholder="{_placeholder}" step="{_step}">
+          <input id="{_id}" name="{_id}" type="{_type}" class="validate" placeholder="{_placeholder}" step="{_step}">
           <label for="{_id}">{_label}</label>
         </div>
         """
 
-    def create_button(self, text: str, onclick: str = "") -> str:
+    def create_button(self, text: str, onclick: str = "", href: str = "#!", is_submit: bool = False) -> str:
+        if is_submit:
+            return f'<button type="submit" class="waves-effect waves-light btn">{text}</button>'
         onclick_html = f' onclick="{onclick}"' if onclick else ""
-        return f'<a class="waves-effect waves-light btn"{onclick_html}>{text}</a>'
+        return f'<a href="{href}" class="waves-effect waves-light btn"{onclick_html}>{text}</a>'
 
-    def create_checkbox(self, label_text: str, class_name: str = "", id_name: str = "") -> str:
+    def create_checkbox(self, label_text: str, class_name: str = "", id_name: str = "", name: str = "", value: Optional[str] = None) -> str:
         _class_name = class_name or self.class_name
         checkbox_id = id_name or f"{_class_name}_checkbox"
-        
+        _name = name or self.class_name
+        _value = value if value is not None else id_name
+
         return f"""
         <p>
           <label>
-            <input type="checkbox" id="{checkbox_id}" />
+            <input type="checkbox" id="{checkbox_id}" name="{_name}" value="{_value}" />
             <span>{label_text}</span>
           </label>
         </p>
@@ -73,15 +73,22 @@ class Module(ABC):
         <label>{label_text}</label>
         """
 
-    def create_select(self, options: list[str], select_label: str, class_name: str = "", id_name: str = "", col_size: str = "") -> str:
+    def create_select(self, options: list, select_label: str, class_name: str = "", id_name: str = "", col_size: str = "") -> str:
         _class_name = class_name or self.class_name
         select_id = id_name or f"{_class_name}_select"
         _col_size = col_size or self.col_size
-        option_html = "".join(f'<option value="{opt.lower()}">{opt}</option>' for opt in options)
+        
+        option_html = ""
+        for opt in options:
+            if isinstance(opt, str):
+                option_html += f'<option value="{opt.lower()}">{opt}</option>'
+            else:
+                val, label = opt
+                option_html += f'<option value="{str(val).lower()}">{label}</option>'
 
         return f"""
         <div class="input-field col {_col_size}">
-          <select id="{select_id}">
+          <select id="{select_id}" name="{select_id}">
             <option value="" disabled selected>Choose</option>
             {option_html}
           </select>
@@ -96,7 +103,7 @@ class Module(ABC):
 
         return f"""
         <div class="input-field col {_col_size}">
-          <input type="text" class="datepicker" id="{date_id}">
+          <input type="text" class="datepicker" id="{date_id}" name="{date_id}">
           <label for="{date_id}">{date_label}</label>
         </div>
         """
